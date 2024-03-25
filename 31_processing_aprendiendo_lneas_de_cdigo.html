@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>3.1 Processing. Aprendiendo líneas de código. | RETOS A LA VISTA </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="J Ramón Dorado" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.6 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-15"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">RETOS A LA VISTA</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">RETOS A LA VISTA</a></li>
+   <li><a href="1_trabajando_en_equipo_para_alcanzar_nuestros_objetivos.html" class="no-ch">1. Trabajando en equipo para alcanzar nuestros objetivos</a></li>
+   <li><a href="2_qe_sabemos_ya.html" class="daddy">2. Qúe sabemos ya</a>
+   <ul class="other-section">
+      <li><a href="21_mi_gato_hace_uyuyuyuy.html" class="no-ch">2.1. Mi gato hace uyuyuyuy</a></li>
+      <li><a href="22_nuestra_placa_robtica.html" class="daddy">2.2. Nuestra placa robótica</a>
+      <ul class="other-section">
+         <li><a href="221_exploramos_la_placa.html" class="no-ch">2.2.1. Exploramos la placa</a></li>
+         <li><a href="222_el_cerebro_de_nuestro_robot.html" class="daddy">2.2.2. El cerebro de nuestro robot</a>
+         <ul class="other-section">
+            <li><a href="2221_qu_has_aprendido_sobre_los_microcontroladores.html" class="no-ch">2.2.2.1. Qué has aprendido sobre los microcontroladores</a></li>
+         </ul>
+         </li>
+         <li><a href="223_entradas_procesamiento_y_salidas.html" class="no-ch">2.2.3. Entradas, procesamiento y salidas</a></li>
+      </ul>
+      </li>
+      <li><a href="23_el_entorno_de_programacin.html" class="daddy">2.3. El entorno de programación</a>
+      <ul class="other-section">
+         <li><a href="231_hola_mundo.html" class="no-ch">2.3.1. ¡Hola mundo!</a></li>
+      </ul>
+      </li>
+      <li><a href="24_nos_ponemos_manos_a_la_obra.html" class="no-ch">2.4. Nos ponemos manos a la obra</a></li>
+      <li><a href="25_actividades_de_repaso.html" class="no-ch">2.5. Actividades de Repaso</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="3_nuestras_nuevas_herramientas.html" class="current-page-parent daddy">3. Nuestras nuevas herramientas</a>
+   <ul>
+      <li id="active"><a href="31_processing_aprendiendo_lneas_de_cdigo.html" class="active no-ch">3.1 Processing. Aprendiendo líneas de código.</a></li>
+      <li><a href="32_arduino_y_tinkercad_circuits.html" class="no-ch">3.2. Arduino y Tinkercad Circuits</a></li>
+      <li><a href="33__impresin_3d_vacaciones_en_el_espacio.html" class="daddy">3.3.  Impresión 3D: Vacaciones en el espacio</a>
+      <ul class="other-section">
+         <li><a href="331_antes_de_despegar.html" class="no-ch">3.3.1. Antes de despegar</a></li>
+         <li><a href="332_refrescando_la_memoria_espacial.html" class="daddy">3.3.2. Refrescando la memoria espacial</a>
+         <ul class="other-section">
+            <li><a href="3321tus_primeros_bocetos.html" class="no-ch">3.3.2.1.Tus primeros bocetos</a></li>
+            <li><a href="3322_comenzamos_por_los_cimientos.html" class="no-ch">3.3.2.2. Comenzamos por los cimientos</a></li>
+         </ul>
+         </li>
+         <li><a href="333_habitando_el_espacio.html" class="daddy">3.3.3. Habitando el espacio</a>
+         <ul class="other-section">
+            <li><a href="3331_conociendo_las_condiciones_de_vida_en_el_espacio.html" class="no-ch">3.3.3.1. Conociendo las condiciones de vida en el espacio</a></li>
+         </ul>
+         </li>
+         <li><a href="334_nuestros_dibujos_espaciales.html" class="daddy">3.3.4. Nuestros dibujos espaciales</a>
+         <ul class="other-section">
+            <li><a href="41_conociendo_tinkercad.html" class="no-ch">4.1. Conociendo TinkerCad</a></li>
+         </ul>
+         </li>
+         <li><a href="335_edificios_espaciales.html" class="daddy">3.3.5. Edificios espaciales</a>
+         <ul class="other-section">
+            <li><a href="3351_conociendo_los_edificios_en_condiciones_extremas.html" class="no-ch">3.3.5.1. Conociendo los edificios en condiciones extremas</a></li>
+         </ul>
+         </li>
+         <li><a href="336_construyamos_en_el_espacio.html" class="no-ch">3.3.6. Construyamos en el espacio</a></li>
+         <li><a href="337_presentamos_nuestro_trabajo.html" class="no-ch">3.3.7. Presentamos nuestro trabajo</a></li>
+         <li><a href="338_concluyamos.html" class="no-ch">3.3.8. Concluyamos</a></li>
+      </ul>
+      </li>
+      <li><a href="34_dame_una_app.html" class="daddy">3.4. Dame una app</a>
+      <ul class="other-section">
+         <li><a href="341_quieres_empezar.html" class="no-ch">3.4.1. ¿Quieres empezar?</a></li>
+         <li><a href="342_actvate_antes_de_continuar.html" class="daddy">3.4.2. Actívate antes de continuar</a>
+         <ul class="other-section">
+            <li><a href="3421_vuestra_app_favorita.html" class="no-ch">3.4.2.1. Vuestra app favorita</a></li>
+            <li><a href="3422_no_pierdas_de_vista_scratch.html" class="no-ch">3.4.2.2. No pierdas de vista Scratch</a></li>
+            <li><a href="3423_listos_para_programar.html" class="no-ch">3.4.2.3. ¿Listos para programar?</a></li>
+         </ul>
+         </li>
+         <li><a href="343_cuenta_tu_idea.html" class="daddy">3.4.3. Cuenta tu idea</a>
+         <ul class="other-section">
+            <li><a href="3431_hasta_el_diseo_pero_no_ms_all.html" class="no-ch">3.4.3.1. ¡Hasta el diseño pero no más allá!</a></li>
+            <li><a href="3432_veo_veo_y_diseo_diseo.html" class="no-ch">3.4.3.2. ¡Veo, veo!... y ¡diseño, diseño!...</a></li>
+            <li><a href="3433_ingeniera_del_software_un_futuro.html" class="no-ch">3.4.3.3. Ingeniería del software: Un futuro</a></li>
+            <li><a href="3434_diseador_por_fin_nos_conocemos.html" class="no-ch">3.4.3.4. Diseñador, ¡por fin nos conocemos!</a></li>
+         </ul>
+         </li>
+         <li><a href="344_bloques_ha_llegado_vuestra_hora.html" class="daddy">3.4.4. Bloques, ha llegado vuestra hora</a>
+         <ul class="other-section">
+            <li><a href="3441_bienvenido_a_un_nuevo_ide.html" class="no-ch">3.4.4.1. Bienvenido a un nuevo IDE</a></li>
+            <li><a href="3442_cmo_programar_en_app_inventor_sin_desfallecer.html" class="no-ch">3.4.4.2. Cómo programar en App Inventor sin desfallecer</a></li>
+            <li><a href="3443_puedo_probar.html" class="no-ch">3.4.4.3. ¿Puedo probar?</a></li>
+            <li><a href="3444_aprende_a_compartir.html" class="no-ch">3.4.4.4. Aprende a compartir</a></li>
+         </ul>
+         </li>
+         <li><a href="345_ya_puedes_cumplir_tu_compromiso.html" class="daddy">3.4.5. Ya puedes cumplir tu compromiso</a>
+         <ul class="other-section">
+            <li><a href="3451_a_tu_anlisis_le_toca_revisin.html" class="no-ch">3.4.5.1. A tu análisis le toca revisión</a></li>
+            <li><a href="3452_encantado_de_volver_a_verte_diseador.html" class="no-ch">3.4.5.2. Encantado de volver a verte, diseñador</a></li>
+            <li><a href="3453_pngame_otra_racin_de_programacin.html" class="no-ch">3.4.5.3. Póngame otra ración de programación</a></li>
+            <li><a href="3454_lanza_la_app_a_los_cuatro_vientos.html" class="no-ch">3.4.5.4. Lanza la app a los cuatro vientos</a></li>
+         </ul>
+         </li>
+         <li><a href="346_presenta_tu_trabajo.html" class="no-ch">3.4.6. Presenta tu trabajo</a></li>
+         <li><a href="347_cmo_te_ha_ido.html" class="no-ch">3.4.7. ¿Cómo te ha ido?</a></li>
+      </ul>
+      </li>
+      <li><a href="35_actividades_de_repaso.html" class="no-ch">3.5 Actividades de Repaso</a></li>
+   </ul>
+   </li>
+   <li><a href="4_calienta_que_sales_nos_entrenamos.html" class="no-ch">4. Calienta que sales (Nos entrenamos)</a></li>
+   <li><a href="5_a_por_los_retos_o.html" class="no-ch">5. A por los retos, oé</a></li>
+   <li><a href="6_difundimos_nuestro_trabajo.html" class="no-ch">6. Difundimos nuestro trabajo</a></li>
+   <li><a href="7_todo_bien.html" class="no-ch">7. ¿Todo bien?</a></li>
+   <li><a href="gua_didctica.html" class="no-ch">Guía didáctica</a></li>
+   <li><a href="ficha_tcnica.html" class="no-ch">Ficha técnica</a></li>
+   <li><a href="crditos.html" class="no-ch">Créditos</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="3_nuestras_nuevas_herramientas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="32_arduino_y_tinkercad_circuits.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">3.1 Processing. Aprendiendo líneas de código.</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_lee" id="id17">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_lee.svg)"><h1 class="iDeviceTitle">Empezamos</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta17_698_2" class="block iDevice_content">
+<div class="exe-text"><p><a href="https://ctc101.arduino.cc/ctc101/module/module-1/lesson/processing">https://ctc101.arduino.cc/ctc101/module/module-1/lesson/processing</a></p>
+<p>Las instrucciones de programación son comprensibles para los humanos pero los ordenadores solo entienden ceros y unos. Estas instrucciones tienen que transformarse en código que los ordenadores entienden. Por ello, los programas se escriben en un editor de texto siguiendo unas reglas específicas, para poder transformarlos. El editor es el software de desarrollo llamado Entorno de Desarrollo Integrado, IDE (Integrated Development Environment) abreviado por sus siglas en inglés. Compilar es transformar el código a lenguaje máquina. Aquí puedes ver el aspecto que tiene el entorno de desarrollo de Processing:</p>
+<p><img src="processing_01.png" alt="" width="304" height="400" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Cada ordenador, smartphone, servidor de internet, ascensor, horno - actualmente cualquier dispositivo inteligente - tiene diferentes capacidades y por lo tanto requiere de un lenguaje máquina algo diferente al resto. Existe un lenguaje de programación llamado Java que, una vez compilado, es capaz de utilizarse fácilmente en diferentes dispositivos. Hay muchas maneras diferentes de programar en Java, pero nosotros nos centraremos en utilizar Processing.</p>
+<p>Processing es software libre y gratis, esto significa que se puede descargar de internet, instalar y modificar su código sin coste alguno. Processing funciona en cualquier tipo de ordenador y sistema operativo: Windows, Mac OS X y Linux.</p>
+<p>El IDE de Processing es muy sencillo, hay una barra de herramientas que puedes utilizar para:</p>
+<p><img src="processing_02.png" alt="" width="74" height="74" /></p>
+<p>Compilar y ejecutar un programa</p>
+<p><img src="processing_03.png" alt="" width="74" height="74" /></p>
+<p>Detener un programa</p>
+<p>En el IDE de Processing hay un área para mensajes, cuando compilas un programa, si hay errores aparecerán ahí.</p>
+<p>Processing crea programas que se ejecutan directamente dentro de tu ordenador. También puedes exportarlos y enviarlos a los ordenadores de otras personas. Los programas, una vez exportados en código máquina, se llaman aplicaciones. Puedes exportar el mismo programa para que se ejecute en un ordenador, en un teléfono, o en un sitio web.</p>
+<p>Para hacer tus propios programas, primero aprenderás cómo funciona la pantalla del ordenador y sobre píxeles y colores. Esto te será útil cuando escribas tus propios programas interactivos.</p>
+<p><strong>Instalar Processing</strong></p>
+<p><em>Mac OS X / Windows</em><br />Descarga Processing de <a href="https://processing.org/download/" onclick="window.open(this.href,'eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">la página de descargas de Processing.</a><br />Descomprime el archivo .zip y mételo en tu carpeta de programas / aplicaciones.<br />Haz clic en processing.exe para empezar.</p>
+<p><em>Linux</em><br />Descarga Processing de la <a href="https://processing.org/download/" onclick="window.open(this.href,'eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">página de descargas de Processing,</a> a tu directorio principal.<br />Abre la ventana del terminal y escribe en ella: tar xvfz processing-xxxx.tgz<br />Reemplaza el texto xxxx con el resto del nombre del archivo, es decir, el número de la versión. Esto creará una carpeta llamada processing-2.0 o similar. A continuación, ve a este directorio: cd processing-xxxx<br />Ejecuta Processing: ./install.sh</p>
+<p><strong>Instalar los ejemplos de CTC</strong><br />Ve a CTC - Processing <a href="https://github.com/arduino/CTC-Processing" onclick="window.open(this.href,'eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">ejemplos en Github</a>, y elige 'Download ZIP'.<br />Localiza la carpeta “CTC-Processing-master” en tu carpeta de descargas y descomprimela. Una vez hecho, muevela a la carpeta Usuarios/Documentos/Processing en tu ordenador.<br />Reinicia el IDE de Processing antes de usar los ejemplos.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_grupoheterogeneo" id="id18">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_grupoheterogeneo.svg)"><h1 class="iDeviceTitle">Pantalla y píxeles</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta18_699_2" class="block iDevice_content">
+<div class="exe-text"><p><a href="https://ctc101.arduino.cc/ctc101/module/module-1/lesson/screens-and-pixels">https://ctc101.arduino.cc/ctc101/module/module-1/lesson/screens-and-pixels</a></p>
+<p>Las pantallas se utilizan para representar imágenes. Esas imágenes pueden ser dinámicas, como en las películas, o estáticas, como en las fotografías. Se puede incluir texto, como en los documentos, o solo gráficos. Mayormente, las imágenes en la pantalla son una mezcla de muchas cosas; incluyen animaciones, textos, estadísticas, etc.</p>
+<p>Píxeles y Resolución<br />Las pantallas están hechas de un conjunto de puntos que llamamos píxeles. Por lo general, cuantos más píxeles tenga una pantalla, mejor será. Expresamos la calidad de la pantalla en función de la cantidad de píxeles que tiene, esa cantidad es lo que llamamos resolución.</p>
+<p>Normalmente, hablamos de una pantalla en función de su anchura y altura. Por ejemplo, muchos proyectores tienen una resolución de 1024 x 768 píxeles. Esto significa que tiene 1024 píxeles de ancho y 768 píxeles de alto.</p>
+<p>Colores<br />Cada píxel se puede iluminar de muchos colores diferentes. Una vez más, de cuantos más colores se pueda pintar el píxel, mejor será la pantalla. Los colores en la pantalla del ordenador se expresan como una combinación de tres componentes diferentes: rojo (R), verde (G) y azul (B). Cualquier color que representes en una pantalla, se puede hacer mezclando las componentes RGB en diferentes cantidades.</p>
+<p>La cantidad de color para cada componente se expresa con un número entre 0 y 255. 0 representa el valor mínimo de un color, por ejemplo, si tiene 0 del componente rojo, significa que ese color no contiene rojo, sin embargo, si tiene 255 del componente rojo, significa que está saturado de color rojo.</p>
+<p>Si las componentes son 255,255,255 - los píxeles producirán blanco. Si son 0,0,0 - los píxeles mostrarán negro. Si gradualmente cambias los valores R,G,B en la misma proporción desde 255,255,255 a 0,0,0, verás que el color cambia de blanco a negro.</p>
+<p>La siguiente imagen muestra cómo el color de un píxel cambia de blanco a negro y cómo varían los valores RGB:</p>
+<p><img src="processing_04.png" alt="" width="580" height="516" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Coordenadas<br />Puedes escribir programas que cambien los píxeles de la pantalla. Puedes incluso cambiar un solo píxel. La acción de acceso a un solo píxel en la pantalla es lo que llamamos direccionar un píxel. La ubicación de un píxel se determina mediante coordenadas.</p>
+<p>Cada píxel tiene 2 coordenadas:</p>
+<p>La coordenada horizontal es la que llamamos coordenada X (anchura, o en inglés width).<br />La coordenada vertical, es la que llamamos coordenada Y (altura, o en inglés height).<br />Si recuerdas lo que aprendiste en clase de matemáticas y física, puedes dibujar gráficos, puntos, líneas y curvas usando coordenadas. Esta misma idea se aplica a la pantalla del ordenador, la única diferencia, es que el llamado origen de coordenadas de la pantalla del ordenador es la esquina superior izquierda, como puedes ver en la siguiente imagen.</p>
+<p><img src="processing_05.png" alt="" width="580" height="513" style="display: block; margin-left: auto; margin-right: auto;" /></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_escribe" id="id19">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_escribe.svg)"><h1 class="iDeviceTitle">Línea</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta19_700_2" class="block iDevice_content">
+<div class="exe-text"><p><a href="https://ctc101.arduino.cc/ctc101/module/module-1/lesson/line">https://ctc101.arduino.cc/ctc101/module/module-1/lesson/line</a></p>
+<p>La mejor manera de aprender sobre programación es escribiendo tus propios programas. Vamos a empezar por hacer el programa lo más corto posible usando Processing.</p>
+<p>Nota: Ahora vas a empezar a utilizar el Processing IDE.</p>
+<p>Ejemplo 1.1<br />En este ejemplo, escribirás un programa para dibujar una línea en la pantalla.</p>
+<p>INSTRUCCIONES<br />Abre el IDE de Processing y escribe el siguiente programa:</p>
+<p><span style="background-color: #e1d8eb;">line(0, 0, 100, 100);</span><br /> 1. Ejecutar el programa haciendo clic en el icono <img src="processing_02.1.png" width="40" height="40" /></p>
+<p>RESULTADO<br />Al ejecutar el programa verás como aparece una línea en la ventana de programa.</p>
+<p><img src="processing_06.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>COMANDOS<br /><span style="background-color: #e1d8eb;">line(x1, y1, x2, y2)</span> : Dibuja una línea desde las coordenadas x1,y1 hasta x2,y2.<br />También necesitas saber:</p>
+<p>Cada línea de código termina con un puto y coma, ';'. Si te olvidas de ponerlo, el código no podrá ser compilado ni ejecutado.<br />Por defecto, las ventanas de Processing son de 100 x 100 píxeles.<br />Por defecto, el color del fondo es gris y para dibujar es el negro. Pero por supuesto, todo esto se puede cambiar.<br />CÓMO FUNCIONA<br />Se dibuja una línea desde las coordenadas (0, 0), esquina superior izquierda de la ventana, hasta las coordenadas (100, 100) – esquina inferior derecha.<br />Funciones y parámetros<br />En el ejemplo anterior, dibujaste una línea con el siguiente comando line(x1, y1, x2, y2). Este comando se llama función. Una función contiene un conjunto de comandos o instrucciones en tan sólo una línea de código. La ejecución de esas instrucciones depende de los parámetros de la función. En line(x1, y1, x2, y2) los parámetros son x1, y1, x2 y y2. La línea que se dibuja cuando llamas a la función line() depende de los parámetros que le pasas a esta función. Cada función puede tener un número diferente de parámetros.</p>
+<p>Muchas funciones devuelven un valor cuando las llamamos. Por ejemplo, en el proyecto del reloj de Post-it® emplearás una función llamada hour() que devuelve la hora actual, un número entre 0 y 23.</p>
+<p>En el siguiente ejemplo aprenderás como usar otras dos funciones. Todos estos ejemplos están basados en funciones, lo que significa que los comandos que se ejecutan cuando las llamamos están incluidos en Processing. Puedes escribir tus propias funciones, aprenderás como hacerlo en los proyectos del segundo módulo.</p>
+<p>Ejemplo 1.2<br />En este ejemplo, escribirás un programa que dibuje dos líneas de diferentes colores sobre un fondo blanco.</p>
+<p>INSTRUCCIONES<br />Escribe y ejecuta el siguiente programa:</p>
+<p><span style="background-color: #e1d8eb;">background(255);</span><br /><span style="background-color: #e1d8eb;">line(0, 0, 100, 100);</span><br /><span style="background-color: #e1d8eb;">stroke(0, 0, 255);</span><br /><span style="background-color: #e1d8eb;">line(0, 100, 100, 0);</span></p>
+<p><br />RESULTADO<br />En este caso dos líneas, una azul y una negra aparecen dibujadas en la ventana de programa.</p>
+<p><img src="processing_07.png" alt="" width="580" height="524" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>COMANDOS<br /><span style="background-color: #e1d8eb;">background(gray)</span>: Establece el color de fondo desde 0 - negro, hasta 255 - blanco. También puedes utilizar <span style="background-color: #e1d8eb;">background(red, green, blue)</span>para establecer el color que tú quieras.<br /><span style="background-color: #e1d8eb;">stroke(red, green, blue)</span>: Establece el color de la línea. Cada componente de color puede ser un número desde 0 hasta 255.<br />CÓMO FUNCIONA<br />Tus programas se ejecutarán siempre de arriba a abajo línea por línea. Lo que este programa hace es:</p>
+<p>Establece el color de fondo a blanco.<br />Dibuja la línea negra igual que en el ejemplo anterior, desde la coordenada (0, 0) - esquina superior izquierda, a (100, 100) - esquina inferior derecha.<br />Establece el color de línea a azul.<br />Se dibuja la segunda línea desde la coordenada (0, 100) – esquina inferior izquierda, a (100, 0) – esquina superior derecha con color azul.</p>
+<p><br /><em>¡Sigue experimentando!</em><br />Añade más líneas de diferentes colores y cambia el color de fondo.<br />Cambia el orden del programa. ¿Qué ocurre si, por ejemplo, cambias el color de fondo al final?</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_rep_reflexion" id="id20">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_reflexion.svg)"><h1 class="iDeviceTitle">Variables</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta20_701_2" class="block iDevice_content">
+<div class="exe-text"><p><a href="https://ctc101.arduino.cc/ctc101/module/module-1/lesson/variables">https://ctc101.arduino.cc/ctc101/module/module-1/lesson/variables</a></p>
+<p>Las variables son algo que usas todo el tiempo en programación. Son como un contenedor para diferentes tipos de datos. Para cada variable, necesitas especificar qué tipo de datos contendrán, cuál es el nombre de la variable y qué valor se le asigna.</p>
+<p>Imagina las variables como botes. Digamos que tienes dos botes, uno para galletas y otro para palabras, estos son los tipos de datos. Ahora hay que darles un nombre a cada bote; cookieJar (bote de galletas) y jarOfWord (bote de palabras). Ahora tú decides que poner en cada bote. En el cookieJar pones una galleta de doble chocolate y en el jarOfWord decides poner "hello". Ahora cada bote tiene un valor.</p>
+<p><img src="processing_08.png" alt="" width="580" height="527" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Puedes cambiar el contenido de los botes, su valor, en cualquier momento, pero siempre y cuando sea del mismo tipo. Por ejemplo, puedes cambiar la galleta de doble chocolate por una oreo y "hello" por "spaceinvader".</p>
+<p>Para hacerlo más claro, vamos a escribir un programa utilizando variables. Escribiremos un programa que dibuje, de nuevo, dos líneas, pero esta vez utilizaremos variables.</p>
+<p>Ejemplo 1.3<br />En este ejemplo, dibujarás dos líneas como hicimos en el ejemplo 1.2 pero esta vez, usando variables para almacenar las coordenadas.</p>
+<p>INSTRUCCIONES<br />Escribe y ejecuta el siguiente programa:</p>
+<p><span style="background-color: #e0d7d7;">int value1 = 0;</span><br /><span style="background-color: #e0d7d7;">int value2 = 100;</span><br /><span style="background-color: #e0d7d7;">line(value1, value1, value2, value2);</span><br /><span style="background-color: #e0d7d7;">line(value1, value2, value2, value1);</span></p>
+<p><br />RESULTADO<br />Aparecen las mismas dos líneas del ejemplo 1.2 pero esta vez hemos empleado variables y no hemos modificado el color del fondo.</p>
+<p><img src="processing_09.png" alt="" width="580" height="524" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>COMANDOS<br /><span style="background-color: #e0d7d7;">int variableName = value</span>: Crea una variable del tipo "int", del inglés integer, que representa números enteros. variableName puede ser cualquier nombre de tu elección, pero para hacerlo más sencillo, asegúrate que el nombre va acorde con el contexto en el que se usa la variable. value es el valor que quieres almacenar en la variable.<br />COMANDOS<br />Se declara la variable value1 y se inicializa a 0. En cualquier lugar del programa donde escribas value1, será lo mismo que escribir 0.<br />Se declara otra variable, value2 y se inicializa a 100. En cualquier lugar del programa donde escribas value2, será lo mismo que escribir 100.<br />Se dibuja una línea desde las coordenadas (value1, value1) = (0, 0), a (value2, value2) = (100, 100).<br />Se dibuja otra línea desde las coordenadas (value1, value2) = (0, 100), a (value2, value1) = (100, 0).<br />Modifica el valor de las variables para ver qué pasa con las líneas.<br />Tipos de datos<br />Los tipos de datos que más utilizarás son los siguientes:</p>
+<p>int: Número entero, por ejemplo, 2, 99 o 532.<br />float: Número decimal, por ejemplo, 2.76, 8.211 o 900.3.<br />boolean: Puede ser verdadero o falso.<br />char: Un caracter, por ejemplo, ‘r’, ‘2’ o ‘%’.<br />String: Una secuencia de carateres, por ejemplo, "hola", "¡Me encanta programar!" o "&amp;%!@¤".<br />Variables del sistema<br />Processing incluye algunas variables de sistema para hacerlas más accesibles dentro de tus programas. Por ejemplo, width y height. Estas variables devuelven la anchura (width) y altura (height) de la ventana de tu programa.</p>
+<p>Ejemplo 1.4<br />En este ejemplo, dibujarás una elipse cuyo tamaño depende del tamaño de tu ventana de programa.</p>
+<p>INSTRUCCIONES<br />Escribe y ejecuta el siguiente programa:</p>
+<p><span style="background-color: #e0d7d7;">size(400, 200);</span><br /><span style="background-color: #e0d7d7;">ellipse(width/2, height/2, width, height);</span></p>
+<p><br />RESULTADO<br />Usando las variables width y height del sistema, la elipse se ajusta al tamaño de la ventana. No importa el tamaño de la ventana, el elipse la llenará siempre por completo. Intenta cambiar el tamaño de la ventana.</p>
+<p><img src="processing_10.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;" />COMANDOS<br /><span style="background-color: #e0d7d7;">size(windowWidth, windowHeight)</span>: Establece el tamaño de la ventana de programa en píxeles.<br /><span style="background-color: #e0d7d7;">ellipse(x, y, xDiameter, yDiameter)</span>: Dibuja un elipse centrada en las coordenadas x e y. El tamaño se establece con xDiameter e yDiameter. Cuando estos dos parámetros son iguales, el resultado es un círculo.<br /><span style="background-color: #e0d7d7;">width</span>: Devuelve la anchura de la ventana de programa en píxeles.<br /><span style="background-color: #e0d7d7;">height</span>: Devuelve la altura de la ventana de programa en píxeles.<br />COMANDOS<br />Se establece el tamaño de la ventana de programa a 400 x 200 píxeles.<br />Dibuja una elipse con centro en las coordenadas (width/2, height/2) = (200, 100). Lo que significa que estará centrada en la ventana de programa.<br />El diámetro x de la elipse se fija al mismo tamaño que la anchura de la ventana (400 píxeles).<br />El diámetro y de la elipse se fija al mismo tamaño que la altura de la ventana (200 píxeles).</p>
+<p><em>¡Sigue experimentando!</em><br />Dibuja una cara sonriente empleando líneas y elipses.<br />Haz que la cara sonriente se ajuste al tamaño de tu ventana.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_rep_reflexion" id="id21">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_reflexion.svg)"><h1 class="iDeviceTitle">Setup y Draw</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta21_702_2" class="block iDevice_content">
+<div class="exe-text"><p><a href="https://ctc101.arduino.cc/ctc101/module/module-1/lesson/setup-and-draw">https://ctc101.arduino.cc/ctc101/module/module-1/lesson/setup-and-draw</a></p>
+<p>Los programas que hemos hecho hasta ahora son llamados programas estáticos. Esto significa que nunca cambian. Se ejecutan una única vez y cuando llegan a la última línea de código, se paran. Si queremos que un programa sea interactivo, tenemos que habilitar la entrada de datos continuamente mientras el programa se ejecuta. Esto sólo es posible si la ejecución es continua.</p>
+<p>Con Processing, puedes crear programas que se ejecuten continuamente utilizando la función draw(). Esta función repetirá el bloque de código una y otra vez hasta que el programa se pare. Sin embargo, no todo el código escrito necesita ser repetido continuamente. Para el código que sólo necesita ser ejecutado una única vez, debes usar la función llamada setup().</p>
+<p>Ejemplo 1.5<br />En este ejemplo, dibujarás una línea como ya hiciste en el ejemplo 1.1 pero esta vez empleando las funciones setup() y draw().</p>
+<p>INSTRUCCIONES<br />Escribe y ejecuta el siguiente programa:</p>
+<p><span style="background-color: #ded3d3;">void setup() {</span><br /><span style="background-color: #ded3d3;">size(300, 300);</span><br /><span style="background-color: #ded3d3;">}</span></p>
+<p><span style="background-color: #ded3d3;">void draw() {</span><br /><span style="background-color: #ded3d3;">line(0 ,0, width, height);</span><br /><span style="background-color: #ded3d3;">}</span></p>
+<p><br />RESULTADO<br />Realmente no podemos ver que la línea se está dibujando una y otra vez ya que está exactamente en la misma posición todo el tiempo.</p>
+<p><img src="processing_11.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>COMANDOS<br /><span style="background-color: #ded3d3;">void</span>: Se emplea cuando se declara una función que no devuelve nada.<br /><span style="background-color: #ded3d3;">void setup() { code }</span>: El código entre llaves se ejecuta una única vez cuando el programa empieza.<br /><span style="background-color: #ded3d3;">void draw(){ code }</span>: El código entre llaves se ejecuta una y otra vez. Se ejecuta línea por línea, de arriba a abajo hasta la última línea, donde vuelve a empezar desde el principio de la función draw().<br />COMANDOS<br />Se establece el tamaño de la ventana a 300 x 300 píxeles. Sólo se hace una vez, al principio del programa, por ello está en la función setup().<br />Se dibuja una línea en la función draw(), de esquina a esquina de la ventana.<br />Se ejecuta de nuevo la función draw(), dibujando otra línea exactamente en el mismo sitio.<br />Repite la función draw(), dibujando una línea en cada iteración.<br />Ejemplo 1.6<br />En este ejemplo, aprenderás las funciones mouseX y mouseY, y entenderás mejor la función draw().</p>
+<p>INSTRUCCIONES<br />Escribe y ejecuta el siguiente programa:</p>
+<p><span style="background-color: #ded3d3;">void setup() {</span><br /><span style="background-color: #ded3d3;">size(300,300);</span><br /><span style="background-color: #ded3d3;">}</span></p>
+<p><span style="background-color: #ded3d3;">void draw() {</span><br /><span style="background-color: #ded3d3;">line(0, 0, mouseX, mouseY);</span><br /><span style="background-color: #ded3d3;">}</span></p>
+<p><br />RESULTADO<br />Este programa te permite interactuar con la pantalla. Si mueves el puntero del ratón en la ventana del programa, verás que dibuja diferentes líneas. Si te fijas, se deja un rastro de líneas por donde vas moviendo el ratón, esto se debe a qué cada línea que el programa dibuja, nunca se borra.</p>
+<p><img src="processing_12.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>COMANDOS<br /><span style="background-color: #ded3d3;">mouseX</span>: Devuelve la coordenada X del puntero del ratón.<br /><span style="background-color: #ded3d3;">mouseY</span>: Devuelve la coordenada Y del puntero del ratón.<br />CÓMO FUNCIONA<br />Se establece el tamaño de la ventana a 300 x 300 píxeles en la función setup().<br />Se dibuja una línea en la función draw() desde las coordenadas (0, 0) hasta (mouseX, mouseY). El fin de la línea depende de dónde se encuentra el puntero del ratón.<br />Se ejecuta de nuevo la función draw(), dibujando otra línea desde (0, 0) hasta (mouseX, mouseY). Si has movido un poco el puntero del ratón, verás que está línea es diferente a la primera.<br />Repite la función draw(), dibujando una línea en cada iteración.<br />Ejemplo 1.7<br />En este ejemplo, vas a modificar ligeramente el ejemplo anterior. ¿Qué ocurre cuando ejecutas el nuevo programa?</p>
+<p>INSTRUCCIONES<br />Escribe y ejecuta el siguiente programa:</p>
+<p><span style="background-color: #ded3d3;">void setup() {</span><br /><span style="background-color: #ded3d3;">size(300,300);</span><br /><span style="background-color: #ded3d3;">}</span></p>
+<p><span style="background-color: #ded3d3;">void draw() {</span><br /><span style="background-color: #ded3d3;">background(255);</span><br /><span style="background-color: #ded3d3;">line(0, 0, mouseX, mouseY);</span><br /><span style="background-color: #ded3d3;">}</span></p>
+<p><br />RESULTADO<br />En este caso, el rastro de líneas desaparece quedando una única línea.</p>
+<p><img src="processing_13.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;" />CÓMO FUNCIONA<br />Se establece el tamaño de la ventana a 300 x 300 píxeles en la función setup().<br />En la función draw() se configura el color del fondo blanco.<br />Se dibuja una línea en la función draw() desde las coordenadas (0, 0) hasta (mouseX, mouseY).<br />Se ejecuta de nuevo la función draw(), pintando de nuevo el fondo de blanco. Esto reescribe cualquier cosa que hubiese en la ventana de programa, haciendo que la línea desaparezca.<br />Se dibuja otra línea desde las coordenadas (0, 0) hasta (mouseX, mouseY). Si mueves un poco el cursor del ratón, la línea nueva aparece en una posición diferente.<br />Repite la función draw(), coloreando el fondo y dibujando una línea en cada iteración.</p>
+<p><em>¡Sigue experimentando!</em><br />Dibuja una elipse y modifica su diámetro con el movimiento del puntero del ratón.<br />Cambia el color del fondo según mueves el puntero del ratón.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tareagrupal" id="id22">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tareagrupal.svg)"><h1 class="iDeviceTitle">Actividades.</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta22_703_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header exe-udlContent-character-2"><h2>A ver hasta dónde llegas</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Aprende a tu ritmo.</p>
+<p>Las actividades tienen un grado creciente de dificultad. No pases a la siguiente hasta no haber completado la anterior.</p>
+<p>Ánimo!</p></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header"><h2>1. Serpiente Roja</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><a href="https://ctc101.arduino.cc/ctc101/module/module-1/project/red-snake" title="Pincha aquí" onclick="window.open('https://ctc101.arduino.cc/ctc101/module/module-1/project/red-snake','SERPIENTE ROJA','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">Pincha aquí</a></p>
+<p>En este miniproyecto vas a aprender a programar un objeto que se mueve en la pantalla y va dejando rastro del movimiento del ratón. Iremos escribiendo el código paso por paso, añadiendo nuevas funcionalidades en cada uno.</p>
+<p>1. Dibuja un círculo<br>Empezaremos dibujando un círculo rojo.</p>
+<p><br><span style="background-color: #d4c7c7;">/*</span><br><span style="background-color: #d4c7c7;">* _01_Red_Snake</span><br><span style="background-color: #d4c7c7;">*</span><br><span style="background-color: #d4c7c7;">* How to program a moving object leaving traces of the mouse movement on the screen.</span><br><span style="background-color: #d4c7c7;">*</span><br><span style="background-color: #d4c7c7;">* (c) 2013-2016 Arduino LLC.</span><br><span style="background-color: #d4c7c7;">*/</span></p>
+<p><span style="background-color: #d4c7c7;">void setup() {</span><br><span style="background-color: #d4c7c7;">size(400, 400);</span><br><span style="background-color: #d4c7c7;">}</span></p>
+<p><span style="background-color: #d4c7c7;">void draw() {</span><br><span style="background-color: #d4c7c7;">noStroke(); // Draw borderless shapes</span><br><span style="background-color: #d4c7c7;">fill(255, 0, 0); // Fill shapes with pure red color</span><br><span style="background-color: #d4c7c7;">ellipse(100, 100, 30, 30); // Circle of 30 pixels diameter</span><br><span style="background-color: #d4c7c7;">}</span></p>
+<p><br>RESULTADO<br>Se dibuja un círculo en las misma posición una y otra vez mientras el programa esté ejecutándose.</p>
+<p><img src="processing_14.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>COMANDOS<br>noStroke(): Se emplea para no dibujar el contorno de las siguientes figuras.<br>fill(red, green, blue): Establece el color utilizado para rellenar las siguientes figuras. Cada color (red, green, blue) puede ser un color entre 0 y 255.<br>Comandos relacionados:</p>
+<p>size(ancho, alto): Establece el tamaño de la ventana del programa en píxeles.<br>ellipse(x, y, diametroX, diametroY): Dibuja un elipse con centro en&nbsp;x,y. El tamaño se establece con&nbsp;diametroX&nbsp;y&nbsp;diametroY. Cuando estos dos parámetros son iguales, el resultado es un círculo.<br>CÓMO FUNCIONA<br>Se establece el tamaño de la ventana a 400 x 400 píxeles en la función&nbsp;setup().<br>En la función&nbsp;draw(), se llama a la función&nbsp;noStroke()&nbsp;para dibujar las figuras sin contorno.<br>Se configura el color para rellenar las figuras a rojo.<br>Se dibuja un circulo en las coordenadas (100,&nbsp;100) con un diámetro x e y de 30 píxeles. Debido a la configuración anterior, el círculo será rojo y sin contorno.<br>Repite la función&nbsp;draw()&nbsp;y como no hay ningún cambio en ningún parámetro el programa se comporta de forma estática.<br>2. Haz que el círculo se mueva<br>En este paso haremos que el círculo se mueva con el ratón, dejando un rastro en la pantalla.</p>
+<p><br>/*<br>* _01_Red_Snake<br>*<br>* How to program a moving object leaving traces of the mouse movement on the screen.<br>*<br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>void setup() {<br>size(400, 400);<br>}</p>
+<p>void draw() {<br>noStroke();<br>fill(255, 0, 0);<br>ellipse(mouseX, mouseY, 30, 30); // Circle's placement following the mouse pointer<br>}</p>
+<p><br>RESULTADO<br>En este paso lo que hemos hecho ha sido reemplazar las coordenadas del círculo por mouseX y&nbsp;mouseY. El punto rojo sigue ahora al ratón, haciendo que el programa se comporte como una aplicación de dibujo cualquiera.</p>
+<p><img src="processing_15.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>CÓMO FUNCIONA<br>Cada vez que se ejecuta la función&nbsp;draw(), las coordenadas de la elipse se sitúan en&nbsp;mouseX&nbsp;y&nbsp;mouseY&nbsp;haciendo que el círculo siga el puntero del ratón.<br>Como el fondo no se pinta de nuevo en cada iteración, cada círculo permanece en la pantalla dejando su trazo.<br>3. Cambia gradualmente el color<br>En este paso haremos que el color cambie mientras se ejecuta el programa, y para hacerlo, emplearemos una variable para el color en lugar de un número constante.</p>
+<p><br>/*<br>* _01_Red_Snake<br>*<br>* How to program a moving object leaving traces of the mouse movement on the screen.<br>*<br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>int red = 255;</p>
+<p>void setup() {<br>size(400, 400);<br>}</p>
+<p>void draw() {<br>noStroke();<br>fill(red, 0, 0);<br>ellipse(mouseX, mouseY, 30, 30); // Circle according to the mouse coordinates<br>}</p>
+<p><br>RESULTADO<br>Como verás, este programa produce el mismo resultado que el programa del paso anterior solo que está vez empleamos una variable para definir el color.</p>
+<p>CÓMO FUNCIONA<br>Antes de la función&nbsp;setup(), se declara una variable tipo integer (red) y se inicializa a 255.<br>Cuando configuramos el color en la función&nbsp;draw(), empleamos la variable&nbsp;red&nbsp;en lugar del número 255.<br>4. Cambia gradualmente el color II<br>El cambio de color puede hacerse de diferentes maneras. El color puede cambiar entre 0 y 255 (negro y rojo respectivamente). En este paso se muestra como reducir la cantidad de rojo cada vez que se ejecuta la función&nbsp;draw().</p>
+<p><br>/*<br>* _01_Red_Snake<br>* <br>* How to program a moving object leaving traces of the mouse movement on the screen. <br>* <br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>int red = 255;</p>
+<p>void setup() {<br>size(400, 400);<br>}</p>
+<p>void draw() {<br>red = red - 1; // Make the red a little darker<br>if (red &lt; 0){<br>red = 255; // Once it reaches black, make it light red again<br>}</p>
+<p>noStroke(); <br>fill(red, 0, 0); <br>ellipse(mouseX, mouseY, 30, 30); <br>}</p>
+<p>Resultado<br>Como ves, esta vez el color del círculo varía mientras se ejecuta el programa.</p>
+<p><img src="processing_16.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>Comandos<br>if( test ){ statements }: Comprueba si la condición (test) es cierta. Si lo es, se ejecuta el código entre llaves. Si no lo es, el programa salta y el ejecuta el código después de las llaves.En este ejemplo, si&nbsp;rojo&nbsp;es menor que 0. Si es así, los&nbsp;statements&nbsp;entre llaves son ejecutados. En este ejemplo, establece&nbsp;red&nbsp;a 255 de nuevo. Si por el contrario,&nbsp;test&nbsp;es falso, el programa procede a ejecutar el código después de las llaves. Utilizando declaraciones "if" te permite decir al programa que código ejecutar<br>CÓMO FUNCIONA<br>En la función&nbsp;draw()&nbsp;se resta una unidad a la variable&nbsp;red,&nbsp;red = red-1. La primera vez que la función&nbsp;draw()&nbsp;se ejecuta, la variable&nbsp;red&nbsp;valdrá 254.<br>Empleando el símbolo&nbsp;&lt;&nbsp;o "menor que", la sentencia if comprueba si&nbsp;red&nbsp;es menor que 0. La primera vez que la función&nbsp;draw()&nbsp;se ejecuta, esto será falso.<br>El color para rellenar las figuras se configura con la variable&nbsp;red, esta vez un poco más oscuro que en el paso anterior,&nbsp;fill(254, 0, 0).<br>Con cada iteración de la función&nbsp;draw(),&nbsp;red&nbsp;estará más cerca de valer 0, haciendo el color cada vez más oscuro.<br>En la iteración 255, al restar 1 a la variable&nbsp;red, esta valdrá 0.<br>La condición sigue siendo falsa ya que 0 no es menor que cero.<br>Se configura el color de relleno a negro,&nbsp;fill(0, 0, 0).<br>En la iteración 256 de la función&nbsp;draw(), al restar 1 de la variable&nbsp;red&nbsp;esta valdrá -1.<br>La sentencia if es cierta, -1 es menor que 0.<br>Se ejecuta el código entre llaves, haciendo que la variable&nbsp;red&nbsp;valga 255 de nuevo.<br>Se configura el color de relleno a rojo,&nbsp;fill(255, 0, 0).</p>
+<p><em>¡Sigue experimentando!</em><br>La modificación más sencilla que puedes hacer es cambiar el color de la serpiente.</p></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header"><h2>2. Reloj de Post-it</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><a href="https://ctc101.arduino.cc/ctc101/module/module-1/project/post-it-clock" onclick="window.open(this.href,'RELOJ DE POST-IT','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">Pincha aquí</a></p>
+<p>En este miniproyecto vas a crear un reloj donde los números estarán hechos a partir de fotografías de notas adhesivas o Post-it. Para ello, aprenderás a utilizar imágenes en tus programas y almacenarlas en&nbsp;arrays&nbsp;(luego entenderás lo que son). De nuevo, iremos avanzando paso por paso.</p>
+<p><img src="processing_17.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;">1. Añadir imágenes<br>El primer paso es dar al programa acceso a la imagen. Para ello, primero descarga la imagen <a href="https://raw.githubusercontent.com/arduino/CTC-Processing/master/en/_02_PostIt_Clock/Post_it_Clock_Step_01/data/photo.jpg" onclick="window.open(this.href,'eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">aquí</a>. A continuación, debes arrastrar el fichero de la imagen en el IDE de Processing, como muestra la siguiente captura.</p>
+<p><img src="processing_18.png" alt="" width="499" height="500" style="display: block; margin-left: auto; margin-right: auto;">La imagen se almacena en una subcarpeta del programa llamada&nbsp;data. Esta captura de pantalla muestra la estructura de los ficheros donde puedes encontrar el archivo de la imagen. También puedes encontrarlo abriendo la carpeta desde el menú 'Sketch&gt;Mostrar carpeta del Sketch'.</p>
+<p><img src="processing_19.png" alt="" width="580" height="581" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>2. Mostrando una imagen<br>En este programa vamos a crear una variable&nbsp;Pimage&nbsp;para mostrar una imagen.</p>
+<p><br>/*<br>* _02_PostIt_Clock<br>*<br>* Create a clock where the numbers are represented by photographs ​of digits made out of Post-its<br>*<br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>PImage im;</p>
+<p>void setup() {<br>size(400, 400); // We make the sketch the size of the image<br>im = loadImage("photo.jpg"); // Image name<br>}</p>
+<p>void draw() {<br>image(im, 0, 0); // To show the image on the screen at the coordinates 0, 0<br>}</p>
+<p><br>RESULTADO<br>Al ejecutar el programa verás que muestra la imagen.</p>
+<p><img src="processing_20.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>COMANDOS<br>PImage imageName: crea una variable del tipo&nbsp;PImage&nbsp;llamada&nbsp;imageName. Una variable&nbsp;PImage&nbsp;puede almacenar una imagen.<br>loadImage(imageFile): Carga la imagen&nbsp;imageFile&nbsp;desde el directorio de datos del programa.&nbsp;imageFile&nbsp;debe escribirse exactamente como se llama el archivo.<br>image(imageName, x, y): Muestra la imagen&nbsp;PImage imageName. La esquina superior izquierda de la imagen se sitúa en las coordenadas&nbsp;x&nbsp;e&nbsp;y.<br>CÓMO FUNCIONA<br>Se crea una variable del tipo&nbsp;PImage&nbsp;llamada&nbsp;im.<br>En la función&nbsp;setup(), se establece el tamaño de la ventana a 400 x 400 píxeles. El mismo tamaño que tiene la imagen empleada en el programa.<br>La imagen&nbsp;photo.jpg, se carga y almacena en la variable&nbsp;im.<br>En la función&nbsp;draw(), se muestra la imagen (im). La esquina superior izquierda de la imagen se sitúa en las coordenadas 0, 0 - la esquina superior izquierda de la ventana del programa. Dado que la ventana del programa y la imagen son del mismo tamaño, la imagen se ajusta perfectamente.<br>3. Mostrando dos imágenes<br>En este paso, añadirás otra imagen para mostrar dos, una al lado de la otra.</p>
+<p>Descarga las fotos <a href="http://verkstad.cc/urler/ctc-dld-b1-p-2-2" onclick="window.open('http://verkstad.cc/urler/ctc-dld-b1-p-2-2','eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">photo.jpg</a> y&nbsp;<a href="http://verkstad.cc/urler/ctc-dld-b1-p-2-3" onclick="window.open(this.href,'eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">photo2.jpg</a></p>
+<p><br>/*<br>* _02_PostIt_Clock<br>*<br>* Create a clock where the numbers are represented by photographs ​of digits made out of Post-its<br>*<br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p><br>PImage im;<br>PImage im2;</p>
+<p>void setup() {<br>size(800, 400); // Make the sketch twice the image's width<br>im = loadImage("photo.jpg");<br>im2 = loadImage("photo2.jpg"); // Load the second image<br>}</p>
+<p>void draw() {<br>image(im, 0, 0);<br>image(im2, 400, 0); // To show the second image use coordinates 400, 0<br>}</p>
+<p><br>RESULTADO<br>El programa mostrará dos imágenes.</p>
+<p><img src="processing_21.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>CÓMO FUNCIONA<br>Se declara la segunda variable del tipo&nbsp;PImage&nbsp;llamada&nbsp;im2.<br>En la función&nbsp;setup()&nbsp;se establece el tamaño de la ventana a 800 x 400 píxeles, el doble de anchura que antes, para que quepan las dos imágenes.<br>La imagen&nbsp;photo2.jpg&nbsp;se carga y se almacena en la variable&nbsp;im2.<br>En la función&nbsp;draw(),&nbsp;im2&nbsp;se muestra después de&nbsp;im. La esquina superior izquierda se sitúa en las coordenadas (400, 0) - la mitad superior de la ventana del programa, y a su vez, la esquina superior derecha&nbsp;im.<br>4. Arrays I<br>En este paso vamos a modificar el paso anterior y usaremos un array para mostrar dos imágenes. Primero, aprenderás qué es un array.</p>
+<p>Un array es como una caja con muchos compartimentos. Cada compartimento puede almacenar varios objetos y todos los objetos de un mismo compartimento tienen que ser del mismo tipo. Cada objeto se puede encontrar referenciando el compartimento dónde está almacenado.</p>
+<p>Por ejemplo, un array llamado "FruitContainer" (caja de fruta) tiene 3 compartimentos y puede contener 3 objetos. El compartimento 1 tiene un plátano, el compartimento 2 tiene una cereza y el compartimento 3 tiene una fresa. Si quieres encontrar la cereza, mirarás en el compartimento 2 de la caja. El orden de los arrays siempre empieza en 0, por lo que FruitContainer[0] contiene el plátano, FruitContainer[1] contiene la cereza y FruitContainer[2] la fresa.</p>
+<p><img src="processing_22.png" alt="" width="580" height="619" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>Los arrays pueden ser de muchos tipos, como entero (int) o cadena (String). El máximo número de variables que pueden almacenar debe ser declarado con el array – 3 en el ejemplo anterior.</p>
+<p>5. Arrays II<br>En este paso, vas a modificar el programa del paso 3 y usarás un array del tipo&nbsp;PImage&nbsp;para mostrar dos imágenes.</p>
+<p><br>/*<br>* _02_PostIt_Clock<br>*<br>* Create a clock where the numbers are represented by photographs ​of digits made out of Post-its<br>*<br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>PImage im[] = new PImage[2]; // Declare an array to contain 2 images</p>
+<p>void setup() {<br>size(800, 400);<br>// The first image goes into the first position of the array img[]<br>im[0] = loadImage("photo.jpg");<br>// The second image goes into the second position of the array<br>im[1] = loadImage("photo2.jpg");<br>}</p>
+<p>void draw() {<br>image(im[0], 0, 0);<br>image(im[1], 400, 0);<br>}</p>
+<p><br>RESULTADO<br>Como puedes ver, los cambios en el programa no cambian nada en el resultado.</p>
+<p>COMANDOS<br>datatype arrayName\[ \] = new datatype\[ numberOfElements \]: Declara un array del tipo&nbsp;datatype, con el nombre&nbsp;arrayName.&nbsp;numberOfElements&nbsp;es el número de elementos o compartimentos de datos.<br>arrayName\[ index \]: Accede al elemento&nbsp;index&nbsp;del array&nbsp;arrayName. El índice del primer elemento es 0, del segundo 1, etc.<br>Puedes encontrar más información en inglés&nbsp;aquí.<br>CÓMO FUNCIONA<br>Se declara un array del tipo&nbsp;PImage&nbsp;para almacenar dos imágenes, en lugar de emplear dos variables del tipo&nbsp;PImage.<br>En la función&nbsp;setup(), se carga la foto&nbsp;photo.jpg&nbsp;y se almacena en&nbsp;im\[0\], también se carga&nbsp;photo2.jpg&nbsp;y se almacena en&nbsp;im\[1\].<br>En la función&nbsp;draw(), se muestra la imagen&nbsp;im\[0\]&nbsp;con la esquina superior izquierda en las coordenadas (0,&nbsp;0).<br>Se muestra la imagen&nbsp;im\[1\]&nbsp;con la esquina superior izquierda en las coordenadas (400,&nbsp;0).<br>6. Usando dos Arrays<br>Para simplificar aún más la asignación de las variables imagen, el truco es almacenar los nombres de todas las imágenes en un array de strings (cadenas de texto). Aquí un ejemplo:</p>
+<p><br>/*<br>* _02_PostIt_Clock<br>*<br>* Create a clock where the numbers are represented by photographs ​of digits made out of Post-its<br>*<br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>PImage im[] = new PImage[2];<br>String imFile[] = {"photo.jpg", "photo2.jpg"}; // Array with the file names</p>
+<p>void setup() {<br>size(800, 400);<br>im[0] = loadImage(imFile[0]); // Use 'loadImage()' to load the first image file<br>im[1] = loadImage(imFile[1]); // Second image file<br>}</p>
+<p>void draw() {<br>image(im[0], 0, 0);<br>image(im[1], 400, 0);<br>}</p>
+<p><br>RESULTADO<br>Como podrás observar cuando ejecutes este programa, el resultado es el mismo. Esta forma de programar te facilitará seguir trabajando ya que añadir más imágenes es muy sencillo.</p>
+<p>CÓMO FUNCIONA<br>Se declara otro array de tipo&nbsp;String. Se llama&nbsp;imFile&nbsp;y almacena los nombres de los dos archivos de las imágenes;&nbsp;photo.jpg, y&nbsp;photo2.jpg.<br>En la función&nbsp;setup(), se carga la imagen&nbsp;imFile\[0\]&nbsp;y se almacena en&nbsp;im\[0\].<br>Se carga la imagen&nbsp;imFile\[1\]&nbsp;y se almacena en&nbsp;im\[1\].<br>7. El bucle for()<br>En este paso aumentarás el número de imágenes que se muestran de dos a cuatro. Todavía utilizarás los dos arrays de los pasos anteriores, pero para hacer el código aún más eficiente, emplearás el bucle&nbsp;for().</p>
+<p>Descarga las imágenes <a href="http://verkstad.cc/urler/ctc-dld-b1-p-2-4" onclick="window.open(this.href,'eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">one.jpg</a>, <a href="http://verkstad.cc/urler/ctc-dld-b1-p-2-5" onclick="window.open(this.href,'eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">two.jpg</a>, <a href="http://verkstad.cc/urler/ctc-dld-b1-p-2-6" onclick="window.open(this.href,'eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">three.jpg</a> y <a href="http://verkstad.cc/urler/ctc-dld-b1-p-2-7">four.jpg</a></p>
+<p>/*<br>* _02_PostIt_Clock<br>* <br>* Create a clock where the numbers are represented by photographs ​of digits made out of Post-its<br>* <br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>PImage im[] = new PImage[4]; // Make your array bigger for it to contain 4 images<br>String imFile[] = {"one.jpg", "two.jpg", "three.jpg", "four.jpg"};</p>
+<p>void setup() {<br>size(800, 800); // Make your sketch bigger to show all the images at once <br>for (int i = 0; i &lt; 4; i = i + 1) {<br>im[i] = loadImage(imFile[i]); // Load images according to the counter 'i'<br>}<br>}</p>
+<p>void draw() {<br>image(im[0], 0, 0); // Show the images<br>image(im[1], 400, 0); <br>image(im[2], 0, 400); <br>image(im[3], 400, 400); <br>}</p>
+<p>Resultado<br>Al ejecutar el programa, se mostrarán cuatro imágenes.</p>
+<p><img src="processing_23.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>Comandos<br>for(initializer; test; update){ statements }: Permite repetir una parte del código tantas veces como necesites. El bucle se ejecuta siguiendo los siguientes pasos:Ejecuta la inicialización: Normalmente, esto se hace con la declaración de una variable tipo entero llamada&nbsp;i.<br>Comprueba si la condición en&nbsp;test&nbsp;es verdadera o falsa. Normalmente esto es comprobar si la variable&nbsp;i&nbsp;es mayor que un valor determinado.<br>Si la comprobación es falsa, se sale del bucle. Si la comprobación es verdadera, se ejecuta el código entre llaves.<br>Ejecuta la actualización. Normalmente esto es incrementar o decrementar la variable&nbsp;i&nbsp;en 1.<br>Vuelve a repetir todo desde el paso 2.<br>CÓMO FUNCIONA<br>Se modifican los cuatro arrays para almacenar 4 elementos cada uno.<br>En la función&nbsp;setup(), se establece el tamaño de la ventana a 800 x 800 píxeles para que quepan las cuatro imágenes.<br>Se emplea un bucle for para cargar y almacenar los archivos de las imágenes en el array&nbsp;im:Se declara la variable&nbsp;i&nbsp;tipo entero y se inicializa a 0.<br>Se realiza la comprobación,&nbsp;i&lt;4, y es cierta, 0 es menor que 4.<br>Se emplea la variable&nbsp;i&nbsp;para acceder a los elementos de los arrays. En la primera iteración,&nbsp;i&nbsp;es igual a 0, lo que significa que&nbsp;imFile\[0\]&nbsp;(one.jpg&nbsp;se carga y se almacena en&nbsp;im\[0\].<br>Se ejecuta la actualización, es decir, se incrementa en 1 la variable&nbsp;i,&nbsp;i = i+1.<br>Se realiza la comprobación de nuevo y sigue siendo verdadera, 1 es menor que 4.<br>Se carga la imagen&nbsp;imFile\[1\],&nbsp;two.jpg, y se almacena en&nbsp;im\[1\].<br>Se ejecuta de nuevo la actualización.<br>Este bucle itera hasta que la variable&nbsp;i&nbsp;es igual a 4, entonces la comprobación será falsa, 4 es no menor que 4.<br>En la función&nbsp;draw()&nbsp;las cuatro imágenes se muestran en una cuadrícula.<br>8. Múltiples imágenes<br>Puesto que el objetivo de este programa es crear un reloj, en este paso, mostrarás las diferentes imágenes que usarás después para representar el tiempo.</p>
+<p>Descarga las imágenes que representan los números: <a href="http://verkstad.cc/urler/ctc-dld-b1-p-2-8" onclick="window.open(this.href,'eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">0</a>, <a href="http://verkstad.cc/urler/ctc-dld-b1-p-2-9" onclick="window.open(this.href,'eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">1</a>, <a href="http://verkstad.cc/urler/ctc-dld-b1-p-2-10" onclick="window.open(this.href,'eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">2</a>, <a href="http://verkstad.cc/urler/ctc-dld-b1-p-2-11" onclick="window.open(this.href,'eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">3</a>, <a href="http://verkstad.cc/urler/ctc-dld-b1-p-2-12" onclick="window.open(this.href,'eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">4</a>, <a href="http://verkstad.cc/urler/ctc-dld-b1-p-2-13" onclick="window.open(this.href,'eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">5</a>, <a href="http://verkstad.cc/urler/ctc-dld-b1-p-2-14" onclick="window.open(this.href,'eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">6</a>, <a href="http://verkstad.cc/urler/ctc-dld-b1-p-2-15" onclick="window.open(this.href,'eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">7</a>, <a href="http://verkstad.cc/urler/ctc-dld-b1-p-2-16" onclick="window.open(this.href,'eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">8</a> y <a href="http://verkstad.cc/urler/ctc-dld-b1-p-2-17" onclick="window.open(this.href,'eXeLearningPopup','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">9</a>.</p>
+<p>/*<br>* _02_PostIt_Clock<br>* <br>* Create a clock where the numbers are represented by photographs ​of digits made out of Post-its<br>* <br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>PImage im[] = new PImage[10]; // Array for 10 images<br>String imFile[] = {"0.jpg", "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg"};</p>
+<p>void setup() {<br>size(700, 95); // 10 images of 70 pixels wide and 95 pixels high <br>for (int i = 0; i &lt; 10; i = i + 1) {<br>im[i] = loadImage(imFile[i]); <br>}<br>}</p>
+<p>void draw() {<br>for (int i = 0; i &lt; 10; i = i + 1) {<br>image(im[i], 70 * i, 0); // Show the images in sequence<br>}<br>}</p>
+<p>Resultado<br>&nbsp;</p>
+<p>El programa muestra las imágenes de los números 0 al 9.</p>
+<p><img src="processing_24.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>Cómo funciona<br>Se modifican los dos arrays para almacenar cada uno diez elementos.<br>En la función&nbsp;setup(), se establece el tamaño de la ventana a 700 x 95 píxeles, para mostrar diez imágenes de 70 x 95 píxeles en fila .<br>Un bucle for se ejecuta diez veces para cargar todos los archivos de las imágenes en el array&nbsp;im.<br>En la función&nbsp;draw()&nbsp;otro bucle for se ejecuta diez veces para mostrar las imágenes:En la primera iteración, cuando la variable&nbsp;i&nbsp;es igual a 0, la imagen en&nbsp;im\[0\]&nbsp;se muestra con la esquina superior izquierda en las coordenadas (0,&nbsp;0), ya que&nbsp;70\*0 = 0.<br>En la segunda iteración, cuando la variable&nbsp;i&nbsp;es igual a 1, la imagen en&nbsp;img\[1\]&nbsp;se muestra en las coordenadas (70,&nbsp;0), ya que&nbsp;70\*1 = 70.<br>Esto se ejecuta continuamente hasta que la variable&nbsp;i&nbsp;es igual a 10.<br>9. El Tiempo<br>En este paso mostrarás la hora actual.</p>
+<p>/*<br>* _02_PostIt_Clock<br>* <br>* Create a clock where the numbers are represented by photographs ​of digits made out of Post-its<br>* <br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>PImage im[] = new PImage[10]; // Array for 10 images<br>String imFile[] = {"0.jpg", "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg"};</p>
+<p>void setup() {<br>size(140, 95); // 2 digits of 70x95 pixels<br>for (int i = 0; i &lt; 10; i = i + 1) {<br>im[i] = loadImage(imFile[i]); <br>}<br>}</p>
+<p>void draw() {<br>int h = hour(); // Take the hour from the computer and store it into a variable<br>int h_dec = int(h / 10); // Get the most significant digit<br>int h_uni = h - h_dec * 10; // Get the least significant digit</p>
+<p>image(im[h_dec], 0, 0); // Show the most significant digit<br>image(im[h_uni], 70, 0); // Show the least significant digit<br>}</p>
+<p><br>Resultado<br>El programa muestra dos imágenes basadas en la hora actual.</p>
+<p><img src="processing_25.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>Comandos<br>hour(): Devuelve la hora actual como un número entre 0 y 23.<br>CÓMO FUNCIONA<br>En la función&nbsp;setup()&nbsp;se establece el tamaño de la ventana a 140 x 95 píxeles, para mostrar dos imágenes, una junto a la otra.<br>En la función&nbsp;draw(), se declaran tres variables nuevas:&nbsp;h,&nbsp;h\_dec&nbsp;y&nbsp;h\_uni.&nbsp;h&nbsp;se emplea para almacenar la hora actual.&nbsp;h\_dec&nbsp;y&nbsp;h\_uni&nbsp;se emplean para acceder a las posiciones del array en el que están las imágenes que quieres mostrar.<br>Cuando la hora actual es 14:30, se hacen los siguientes cálculos:h =hour() = 14<br>h\_dec = int( h/10 ) = int( 1.4 ) = 1<br>h\_uni = h-h\_dec \*10 = 14-1\*10 = 14-10 = 4<br>Cuando la hora actual es 02:00 se hacen los siguientes cálculos:h = hour() = 2<br>h\_dec = int( 2/10 ) = int( 0.2 ) = 0<br>h\_uni = h-h\_dec \*10 = 2-0\*10 = 2-0 = 2<br>Se muestran las imágenes&nbsp;im\[h\_dec\]&nbsp;y&nbsp;im\[h\_uni\]&nbsp;una junto a la otra.<br>10. El reloj final<br>Este es el último paso del proyecto. En este paso añadirás los minutos y los segundos al reloj.</p>
+<p>/*<br>* _02_PostIt_Clock<br>* <br>* Create a clock where the numbers are represented by photographs ​of digits made out of Post-its<br>* <br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>PImage im[] = new PImage[10]; // Array for 10 images<br>String imFile[] = {"0.jpg", "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg"};</p>
+<p>void setup() {<br>size(140, 285); // 6 digits in three rows and two columns <br>for (int i = 0; i &lt; 10; i = i + 1) {<br>im[i] = loadImage(imFile[i]); <br>}<br>}</p>
+<p>void draw() {<br>int h = hour(); <br>int h_dec = int(h / 10); <br>int h_uni = h - h_dec * 10;</p>
+<p>image(im[h_dec], 0, 0); <br>image(im[h_uni], 70, 0);</p>
+<p>int m = minute(); // Take the minutes from the computer's clock and store it in a variable<br>int m_dec = int(m / 10); // Get the most significant digit<br>int m_uni = m - m_dec * 10; // Get the least significant digit</p>
+<p>image(im[m_dec], 0, 95); // Show the most significant digit<br>image(im[m_uni], 70, 95); // Show the least significant digit</p>
+<p>int s = second(); // Take the seconds from the computer's clock and store it in a variable<br>int s_dec = int(s / 10); // Get the most significant digit<br>int s_uni = s - s_dec * 10; // Get the least significant digit</p>
+<p>image(im[s_dec], 0, 190); // Show the most significant digit<br>image(im[s_uni], 70, 190); // Show the least significant digit<br>}</p>
+<p><br>RESULTADO<br>El programa muestra seis imágenes, basadas en el tiempo actual en horas, minutos y segundos.</p>
+<p><img src="processing_17.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;">COMANDOS<br>minute(): devuelve los minutos actuales como un valor entre 0 y 59.<br>second(): devuelve los segundos actuales como un valor entre 0 y 59.<br>CÓMO FUNCIONA<br>Una vez que se muestra la hora en la función&nbsp;draw(), se declaran tres variables nuevas,&nbsp;m,&nbsp;m\_dec&nbsp;y&nbsp;m\_unit&nbsp;para almacenar los minutos.<br>Cuando la hora actual es 14:30, se hacen los siguientes cálculos:m = minute() = 30<br>m\_dec = int( m/10 ) = int( 3 ) = 3<br>m\_uni = m-m\_dec \*10 = 30-3\*10 = 30-30 = 0<br>Se muestran las imágenes&nbsp;im\[m\_dec\]&nbsp;y&nbsp;im\[m\_uni\]&nbsp;una junto a la otra, debajo de las imágenes de la hora.<br>Se declaran tres variables nuevas,&nbsp;s,&nbsp;s\_dec&nbsp;y&nbsp;s\_uni, para almacenar los segundos.<br>Se muestran las imágenes&nbsp;im\[s\_dec\]&nbsp;y&nbsp;im\[s\_uni\]&nbsp;una junto a la otra, debajo de las imágenes de los minutos.</p>
+<p><em>Sigue experimentando</em><br>Usando las mismas variables de sistema, crea un temporizador para la cocina, por ejemplo un reloj que cuente hacia atrás con imágenes.<br>Toma tus propias fotos de los dígitos y úsalas en tu programa.</p></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header"><h2>3. Caza la manzana</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><a href="https://ctc101.arduino.cc/ctc101/module/module-1/project/catch-the-apple" onclick="window.open(this.href,'CAZA LA MANZANA','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;">Pincha aquí</a></p>
+<p>En este proyecto vas a llevar la programación un poco más lejos y crearás un pequeño videojuego donde nuestro aguerrido héroe, el famoso científico Newton, intenta no perder la oportunidad de que la manzana le caiga en la cabeza.</p>
+<p>Vamos a crear, paso a paso, un programa en el que Newton coleccione puntos durante medio minuto, al recibir tantos manzanazos en la cabeza como sea posible.</p>
+<p><img src="processing_27.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>1. Crea una manzana y un científico<br>Empezarás creando una manzana y un científico. Las manzanas, por ahora, serán círculos que caen del cielo, mientras que Newton será un cuadrado al fondo de la pantalla.</p>
+<p><br>/*<br>* _03_Catch_The_Apple<br>*<br>* Create the game step-by-step, adding complexity as you move along.<br>* The aim is for Newton to collect points by getting bumped on the head<br>* by as many apples as possible in half a minute.<br>*<br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>void setup() {<br>size(400, 400); // Make the screen of an average size<br>}</p>
+<p>void draw() {<br>ellipse(15, 15, 20, 20); // Draw the apple at the top of the screen<br>rect(width / 2, height - 25, 20, 20); // Draw Newton at the bottom of the screen<br>}</p>
+<p><br>RESULTADO<br>Se dibuja un circulo que representa la manzana, y un cuadrado para marcar la posición del personaje Newton.</p>
+<p><img src="processing_28.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>COMANDOS<br>rect(x, y, rectWidth, rectHeight): Dibuja un rectángulo.&nbsp;x&nbsp;e&nbsp;y&nbsp;establecen la posición de la esquina superior izquierda,&nbsp;rectWidth&nbsp;y&nbsp;rectHeight&nbsp;establecen el tamaño en píxeles.<br>CÓMO FUNCIONA<br>En la función&nbsp;setup()&nbsp;se establece el tamaño de la ventana a 400 x 400 píxeles.<br>En la función&nbsp;draw()&nbsp;se dibuja un círculo en las coordenadas (15, 15), con&nbsp;x&nbsp;e&nbsp;y&nbsp;de 20 píxeles de diámetro.<br>Se dibuja un cuadrado en la esquina superior izquierda con las coordenadas (width/2,&nbsp;height-25) de 20 x 20 píxeles de tamaño.<br>2. Controla a Newton con el teclado<br>En este paso, harás que Newton (el cuadrado) se mueva a la derecha y a la izquierda con las flechas del teclado.</p>
+<p><br>/*<br>* _03_Catch_The_Apple<br>*<br>* Create the game step-by-step, adding complexity as you move along.<br>* The aim is for Newton to collect points by getting bumped on the head<br>* by as many apples as possible in half a minute.<br>*<br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>int nX = 0;</p>
+<p>void setup() {<br>size(400, 400); // Draw the sketch at a not-too-small size<br>}</p>
+<p>void draw() {<br>background(200); // Clear the screen<br>ellipse(15, 15, 20, 20);<br>rect(nX, height - 25, 20, 20); // Draw Newton with a varaible X coordinate<br>}</p>
+<p>void keyPressed() {<br>// If the right key was pressed, increase the X coordinate in 3 units<br>if (keyCode == RIGHT) {<br>nX = nX + 3;<br>}<br>// If the left key was pressed, decrease the X coordinate in 3 units<br>if (keyCode == LEFT) {<br>nX = nX - 3;<br>}<br>}</p>
+<p><br>RESULTADO<br>Pulsa las flechas del teclado y verás cómo se mueve el cuadrado.</p>
+<p><img src="processing_29.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>COMANDOS<br>keyPressed(){ statements }: Esta función se llama cada vez que se pulsa una tecla. Es decir, cualquier código escrito dentro de esta función será ejecutado al pulsar una tecla.<br>keyCode: Es una variable interna del sistema que se emplea para detectar qué tecla ha sido pulsada.<br>RIGHT: Constante que contiene el valor del código de la tecla "flecha derecha".<br>LEFT: Constante que contiene el valor del código de la tecla "flecha izquierda".<br>CÓMO FUNCIONA<br>Se declara la variable&nbsp;nX, tipo int, y se inicializa a 0. Esta variable almacenará la posición X de Newton (el cuadrado).<br>En la función&nbsp;draw(), se configura el color del fondo a gris claro. Al pintar de nuevo el fondo en cada iteración de la función&nbsp;draw()&nbsp;se elimina el rastro del cuadrado cuando se mueve.<br>La posición X del cuadrado se fija con la variable&nbsp;nX. La posición Y es aún fija y vale&nbsp;height-25.<br>Se llama a la función&nbsp;keyPressed()&nbsp;cada vez que se pulsa una tecla.<br>Si se pulsa la tecla "fecha derecha",&nbsp;if( keyCode == RIGHT), se suman 3 a la variable&nbsp;nX. Haciendo que el cuadrado se mueva 3 píxeles a la derecha.<br>Si se pulsa la tecla "fecha izquierda",&nbsp;if( keyCode == LEFT), se restan 3 a la variable&nbsp;nX. Haciendo que el cuadrado se mueva 3 píxeles a la izquierda.<br>3. Limita los movimientos del cuadrado<br>En este paso, emplearás el condicional&nbsp;if, para limitar los movimientos de Newton en el eje X haciendo que esté siempre dentro de la ventana del programa. Es decir, tendrá que ser mayor que 0 y menor que la anchura de la ventana (width).</p>
+<p><br>/*<br>* _03_Catch_The_Apple<br>* <br>* Create the game step-by-step, adding complexity as you move along. <br>* The aim is for Newton to collect points by getting bumped on the head<br>* by as many apples as possible in half a minute.<br>* <br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>int nX = 0;</p>
+<p>void setup() {<br>size(400, 400); <br>}</p>
+<p>void draw() {<br>background(200); <br>ellipse(15, 15, 20, 20); <br>rect(nX, height - 25, 20, 20); <br>}</p>
+<p>void keyPressed() {<br>// Increment the coordinates in 3 <br>if (keyCode == RIGHT) {<br>nX = nX + 3;<br>}<br>// Decrement the coordinates in 3 u<br>if (keyCode == LEFT) {<br>nX = nX - 3;<br>}<br>// Limit the valu of the X coordinate<br>if (nX &lt; 0) {<br>nX = 0;<br>}<br>if (nX &gt; width - 20) { // Check the size of the square on the right side<br>nX = width - 20;<br>}<br>}</p>
+<p><br>RESULTADO<br>En este caso, el resultado es casi el mismo, con la excepción de que el cuadrado ya no saldrá fuera de la ventana de programa.</p>
+<p>CÓMO FUNCIONA<br>Al final de la función&nbsp;keyPressed(), hay dos nuevas sentencias&nbsp;if:Si la variable&nbsp;nX&nbsp;es menor de 0,&nbsp;if( nX&lt;0 ),&nbsp;nX&nbsp;se pone a 0. Haciendo así, que el cuadrado no pueda pasar el límite izquierdo.<br>Si la variable&nbsp;nX&nbsp;es mayor que "width - 20",&nbsp;if( nX&gt;width-20 ),&nbsp;nX&nbsp;se pone a&nbsp;width-20. Haciendo que el cuadrado no supere el límite derecho. Se comprueba si&nbsp;nX&nbsp;es mayor que "width-20" en vez de mayor que&nbsp;width&nbsp;para asegurar que el cuadrado completo se ve, ya que su tamaño es de 20 píxeles de ancho.<br>4. Manzanas que caen<br>En este paso, modificarás el programa para hacer que la manzana (círculo) caiga de lo alto de la pantalla (cielo). Para esto, crearás una variable que almacene la coordenada Y del círculo y, la incrementarás hasta que la manzana toque el suelo, es decir, la parte baja de la ventana del programa.</p>
+<p>/*<br>* _03_Catch_The_Apple<br>* <br>* Create the game step-by-step, adding complexity as you move along. <br>* The aim is for Newton to collect points by getting bumped on the head<br>* by as many apples as possible in half a minute.<br>* <br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>int nX = 0;<br>int aY = 0; // Apple's Y coordinate</p>
+<p>void setup() {<br>size(400, 400); <br>}</p>
+<p>void draw() {<br>background(200);</p>
+<p>aY = aY + 1; // Increase apple's coordinate<br>if (aY &gt; height) {<br>aY = 15; // If the apple touches the ground, lift it again<br>}<br>ellipse(15, aY, 20, 20); // Make the Y coordinate into a variable <br>rect(nX, height - 25, 20, 20); <br>}</p>
+<p>void keyPressed() {<br>// Increase the coordinates in 3 pixels<br>if (keyCode == RIGHT) {<br>nX = nX + 3;<br>}<br>// Decrease the coordinates in 3 pixels<br>if (keyCode == LEFT) {<br>nX = nX - 3;<br>}<br>// Limit the X coordinates<br>if (nX &lt; 0) {<br>nX = 0;<br>}<br>if (nX &gt; width - 20) { <br>nX = width - 20;<br>}<br>}</p>
+<p>RESULTADO<br>Los círculos, o las manzanas, caen del cielo.</p>
+<p><img src="processing_30.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>CÓMO FUNCIONA<br>Se declara la variable&nbsp;aY, tipo int, para almacenar la posición del círculo (manzana) en el eje Y y se inicializa a 0.<br>Cada vez que la función&nbsp;draw()&nbsp;se ejecuta, se suma 1 a la variable&nbsp;aY,&nbsp;aY=aY+1, haciendo que el círculo esté un píxel más cerca del suelo.<br>Una sentencia&nbsp;if&nbsp;comprueba si la variable&nbsp;aY&nbsp;es mayor que&nbsp;height,&nbsp;if( aY&gt;height ). Si lo es, significa que el círculo ha alcanzado la parte baja de la ventana de programa, y la variable se pone nuevo a 0.<br>5. Un poco de azar<br>Hasta ahora, las manzanas siempre salen de la misma posición en lo alto de la pantalla, esto es bastante predecible. En este paso, vas a generar un número aleatorio para cambiar la X de origen y que cada vez salgan de un sitio distinto.</p>
+<p><br>/*<br>* _03_Catch_The_Apple<br>* <br>* Create the game step-by-step, adding complexity as you move along. <br>* The aim is for Newton to collect points by getting bumped on the head<br>* by as many apples as possible in half a minute.<br>* <br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>int nX = 0;<br>int aY = 0; <br>int aX = 15; // Apple's X coordinate</p>
+<p>void setup() {<br>size(400, 400); <br>}</p>
+<p>void draw() {<br>background(200);</p>
+<p>aY = aY + 1; <br>if (aY &gt; height) {<br>aY = 15; <br>aX = int(random(width - 20)); // Initialize the X coordinate of the apple to a random number<br>}<br>ellipse(aX, aY, 20, 20); // Include the changes to the X coordinate to the circle's movement <br>rect(nX, height - 25, 20, 20); <br>}</p>
+<p>void keyPressed() {<br>// Increase the coordinates in 3 pixels<br>if (keyCode == RIGHT) {<br>nX = nX + 3;<br>}<br>// Decrease the coordinates in 3 pixels<br>if (keyCode == LEFT) {<br>nX = nX - 3;<br>}<br>// Limit the X coordinates<br>if (nX &lt; 0) {<br>nX = 0;<br>}<br>if (nX &gt; width - 20) { <br>nX = width - 20;<br>}<br>}</p>
+<p>RESULTADO<br>Con este cambio en el programa, podrás ver que las manzanas salen desde cualquier punto en lo alto de la pantalla.</p>
+<p><img src="processing_31.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>COMANDOS<br>random(max): Genera un número aleatorio entre 0 y&nbsp;max-1. También puedes usar&nbsp;random(min,max)&nbsp;para generar un número aleatorio entre&nbsp;min&nbsp;y&nbsp;max-1.<br>CÓMO FUNCIONA<br>Se declara&nbsp;aX, una variable tipo int, para almacenar el valor de la posición X de los circulos (manzanas) y se inicializa a 15. Ten en cuenta que la coordenada habrá que cambiarla solo cuando la manzana llegue al suelo, si no cambiará aleatoriamente durante su caída.<br>Cuando el círculo alcanza la parte baja de la ventana (suelo),&nbsp;if( aY&gt;height), se fija una nueva coordenada X. Un número aleatorio entre 0 y&nbsp;width-20,&nbsp;aX = int( random( width-20 ) ).<br>Se dibuja el círculo utilizando&nbsp;aX&nbsp;cómo coordenada X,&nbsp;ellipse( aX, aY, 20, 20).<br>6. Detección de colisión<br>La acción de detectar que dos objetos se chocan en la pantalla se llama&nbsp;detección de colisión. En este paso, vas a detectar si la manzana choca con la cabeza de Newton empleando una sentencia&nbsp;if. Al detectar colisión, se cambia el color del cuadrado y del círculo a rojo.</p>
+<p>/*<br>* _03_Catch_The_Apple<br>* <br>* Create the game step-by-step, adding complexity as you move along. <br>* The aim is for Newton to collect points by getting bumped on the head<br>* by as many apples as possible in half a minute.<br>* <br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>int nX = 0;<br>int nY = 0; // Y coordinate for the square<br>int aY = 0; <br>int aX = 15;</p>
+<p>void setup() {<br>size(400, 400); <br>nY = height - 25; // Init the coordinate Y for the square to be at the end of the screen<br>}</p>
+<p>void draw() {<br>background(200);</p>
+<p>aY = aY + 1; <br>if (aY &gt; height) {<br>aY = 15; <br>aX = int(random(width - 20)); <br>}</p>
+<p>fill(255); // By default fill in the shapes white</p>
+<p>// Collision detection<br>if (aY + 10 &gt; nY &amp;&amp; aY - 10 &lt; nY + 20) { // Is the circle at the same height as the square?<br>if (aX + 10 &gt; nX &amp;&amp; aX - 10 &lt; nX + 20) { // Is the circle on top of the square?<br>fill(255, 0, 0); // Change the filling color to red<br>} <br>}</p>
+<p>// Lines to understand collision detection<br>// uncomment them to test how things work<br>//line(0,aY-10,width,aY-10);<br>//line(aX-10,0,aX-10,height);<br>//line(0,aY+10,width,aY+10);<br>//line(aX+10,0,aX+10,height);</p>
+<p>ellipse(aX, aY, 20, 20); <br>rect(nX, nY, 20, 20); // Include a variable to control the Y coordinate <br>}</p>
+<p>void keyPressed() {<br>// Increase the coordinates in 3 pixels<br>if (keyCode == RIGHT) {<br>nX = nX + 3;<br>}<br>// Decrease the coordinates in 3 pixels<br>if (keyCode == LEFT) {<br>nX = nX - 3;<br>}<br>// Limit the X coordinates<br>if (nX &lt; 0) {<br>nX = 0;<br>}<br>if (nX &gt; width - 20) { <br>nX = width - 20;<br>}<br>}</p>
+<p><br>RESULTADO<br>Cuando las manzanas (círculos) colisionan con el cuadrado (Newton) ambos se vuelven rojos.</p>
+<p><img src="processing_32.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>COMANDOS<br>if(test1 &amp;&amp; test2){ statements }: Esto se utiliza para realizar varias comprobaciones en un único&nbsp;if(). En este ejemplo, comprobamos si&nbsp;aY+10 &gt; nY&nbsp;y si&nbsp;aY-10 &lt; nY+20. Si estas dos comprobaciones son ciertas simultáneamente, se ejecuta el código entre llaves.<br>CÓMO FUNCIONA<br>Se declara la variable&nbsp;nY, tipo int, para almacenar la coordenada Y de la posición del cuadrado (Newton) y se inicializa a 0. Esta variable facilita la comprobación de las colisiones.<br>En la función&nbsp;setup(), se asigna a la variable&nbsp;nY&nbsp;el valor&nbsp;width-20. Esto se tiene que hacer en la función&nbsp;setup()&nbsp;después de ajustar el tamaño de la ventana. En caso contrario,&nbsp;width&nbsp;no tomará el valor correcto.<br>El color de relleno se fija a blanco,&nbsp;fill(255), así se puede cambiar cuando se detecta una colisión.<br>La detección de colisión se realiza con dos sentencias&nbsp;if, una dentro de otra:La primera, comprueba si el circulo se encuentra a la misma altura que el cuadrado,&nbsp;if( aY+10 &gt; nY &amp;&amp; aY-10 &lt; nY+20). Es decir, si la zona inferior del círculo (aY+10) está por debajo de la superior del cuadrado (nY), y la superior del círculo (aY-10) está por encima de la inferior del cuadrado (nY+20). Si esta condición es cierta, se comprueba la segunda.<br>La segunda, comprueba si el círculo se encuentra en la misma posición X que el cuadrado.<br>Además, si activas las siguientes líneas en el programa. Verás una serie de líneas en la pantalla enmarcando el movimiento de los objetos. Puedes emplearlas para ver cómo funciona la detección de colisión.</p>
+<pre class="brush: c">// lines of code to understand how collision works<br>// erase the comment in order to see the code<br>line(0,aY-10,width,aY-10);<br>line(aX-10,0,aX-10,height);<br>line(0,aY+10,width,aY+10);<br>line(aX+10,0,aX+10,height);</pre>
+<p><img src="processing_33.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>7. Más rápido<br>Para hacer el juego más interesante, en este paso harás que las manzanas caigan más rápido.</p>
+<p>/*<br>* _03_Catch_The_Apple<br>* <br>* Create the game step-by-step, adding complexity as you move along. <br>* The aim is for Newton to collect points by getting bumped on the head<br>* by as many apples as possible in half a minute.<br>* <br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>int nX = 0;<br>int nY = 0; <br>float aY = 0; // Make aY into a float<br>int aX = 15;<br>float aV = 3; // Apple's falling speed</p>
+<p>void setup() {<br>size(400, 400); <br>nY = height - 25; <br>}</p>
+<p>void draw() {<br>background(200);</p>
+<p>// Apple's movement<br>aY = aY + aV; // Introduce the speed as an increment<br>if (aY &gt; height) {<br>aY = 15; <br>aX = int(random(width - 20)); <br>}</p>
+<p>fill(255);</p>
+<p>// Collision detection<br>if (aY + 10 &gt; nY &amp;&amp; aY - 10 &lt; nY + 20) { <br>if (aX + 10 &gt; nX &amp;&amp; aX - 10 &lt; nX + 20) { <br>fill(255, 0, 0); <br>} <br>}</p>
+<p>ellipse(aX, aY, 20, 20); <br>rect(nX, nY, 20, 20); <br>}</p>
+<p>void keyPressed() {<br>// Increase the coordinates in 3 pixels<br>if (keyCode == RIGHT) {<br>nX = nX + 3;<br>}<br>// Decrease the coordinates in 3 pixels<br>if (keyCode == LEFT) {<br>nX = nX - 3;<br>}<br>// Limit the X coordinates<br>if (nX &lt; 0) {<br>nX = 0;<br>}<br>if (nX &gt; width - 20) { <br>nX = width - 20;<br>}<br>}</p>
+<p>RESULTADO<br>Las manzanas caen más rápido.</p>
+<p>CÓMO FUNCIONA<br>Para preparar el siguiente paso, la variable&nbsp;aY&nbsp;se hace de tipo&nbsp;float&nbsp;en lugar de tipo&nbsp;int<br>Se declara la variable&nbsp;aV, tipo&nbsp;float, para almacenar el valor 3. Esto es la velocidad de la manzana.<br>En la función&nbsp;draw(), la posición Y de la manzana, se fija incrementando la variable&nbsp;aY&nbsp;con la velocidad,&nbsp;aV.<br>8. A Newton le gusta la gravedad, dale más<br>En este paso, modificarás la caída de las manzanas para que responda a la aceleración de la gravedad. De este modo, las manzanas irán cada vez más rápido cuanto más cerca estén del suelo.</p>
+<p>/*<br>* _03_Catch_The_Apple<br>* <br>* Create the game step-by-step, adding complexity as you move along. <br>* The aim is for Newton to collect points by getting bumped on the head<br>* by as many apples as possible in half a minute.<br>* <br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>int nX = 0;<br>int nY = 0; <br>float aY = 0; <br>int aX = 15;<br>float aV = 0; // Apple's initial speed is zero<br>float aA = 0.05; // Apple's intial accerlation (0.98 would be too much)</p>
+<p>void setup() {<br>size(400, 400); <br>nY = height - 25; <br>}</p>
+<p>void draw() {<br>background(200);</p>
+<p>// Apple's movement<br>aV = aV + aA; // EstiaAte the speed according to the acceleration<br>aY = aY + aV; // EstiaAte the position according to the speed<br>if (aY &gt; height) {<br>aY = 15; <br>aX = int(random(width - 20)); <br>aV = 0; // Apples start falling at zero speed <br>}</p>
+<p>fill(255);</p>
+<p>// Collision detection<br>if (aY + 10 &gt; nY &amp;&amp; aY - 10 &lt; nY + 20) { <br>if (aX + 10 &gt; nX &amp;&amp; aX - 10 &lt; nX + 20) { <br>fill(255, 0, 0); <br>} <br>}</p>
+<p>ellipse(aX, aY, 20, 20); <br>rect(nX, nY, 20, 20); <br>}</p>
+<p>void keyPressed() {<br>// Increase the coordinates in 3 pixels<br>if (keyCode == RIGHT) {<br>nX = nX + 3;<br>}<br>// Decrease the coordinates in 3 pixels<br>if (keyCode == LEFT) {<br>nX = nX - 3;<br>}<br>// Limit the X coordinates<br>if (nX &lt; 0) {<br>nX = 0;<br>}<br>if (nX &gt; width - 20) { <br>nX = width - 20;<br>}<br>}</p>
+<p><br>RESULTADO<br>Las manzanas caen dependiendo de la aceleración y la gravedad.</p>
+<p>CÓMO FUNCIONA<br>Cuando se declara la variable de la velocidad,&nbsp;aV, se le asigna el valor 0.<br>Se declara una variable,&nbsp;aA, tipo&nbsp;float, para almacenar un valor de aceleración de 0.05 (en el mundo real esto es 0.98, pero poner ese valor haría muy difícil el juego.)<br>En la función&nbsp;draw(), la velocidad de la manzana se configura incrementando&nbsp;aV&nbsp;con&nbsp;aA. Esto aumenta la velocidad cada vez que la función&nbsp;draw()&nbsp;se ejecuta.<br>La posición Y de la manzana, se fija incrementando la variable&nbsp;aY&nbsp;con&nbsp;aV. Esto hace que la manzana se mueva distancias más grandes cada vez que la función&nbsp;draw()&nbsp;se ejecuta.<br>Cuando se lanza una nueva manzana, esto se hace en la sentencia if donde se comprueba si la variable&nbsp;aY&nbsp;es mayor que&nbsp;height, la velocidad se fija 0.<br>9. Cuenta los puntos<br>En este paso, implementarás un contador que cuente cuántas manzanas golpearon a Newton.</p>
+<p>Nota: como empiezas a tener muchas variables en tu programa, es recomendable añadir comentarios para recordar qué hace cada una.</p>
+<p>&nbsp;<br>&nbsp;</p>
+<p>/*<br>* _03_Catch_The_Apple<br>* <br>* Create the game step-by-step, adding complexity as you move along. <br>* The aim is for Newton to collect points by getting bumped on the head<br>* by as many apples as possible in half a minute.<br>* <br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>int nX = 0; // X coordinate, Newton<br>int nY = 0; // Y coordinate, Newton<br>float aY = 0; // Y coordinate, apples<br>int aX = 15; // X coordinate, apples<br>float aV = 0; // Y speed, apples<br>float aA = 0.05; // Y acceleration, apples<br>int p = 0; // Points</p>
+<p>void setup() {<br>size(400, 400); <br>nY = height - 25; <br>}</p>
+<p>void draw() {<br>background(200);</p>
+<p>// Apple's movement<br>aV = aV + aA; <br>aY = aY + aV; <br>if (aY &gt; height) {<br>aY = 15; <br>aX = int(random(width - 20)); <br>aV = 0; <br>}</p>
+<p>fill(255);</p>
+<p>// Collision detection<br>if (aY + 10 &gt; nY &amp;&amp; aY - 10 &lt; nY + 20) { <br>if (aX + 10 &gt; nX &amp;&amp; aX - 10 &lt; nX + 20) { <br>fill(255, 0, 0); <br>// If collision increase the points<br>p = p + 1;<br>} <br>}</p>
+<p>ellipse(aX, aY, 20, 20); <br>rect(nX, nY, 20, 20);</p>
+<p>// Show the points on the screen<br>fill(0); <br>text("Hits: " + p, 3 * width / 4, 20); // Text to the right on the screen<br>}</p>
+<p>void keyPressed() {<br>// Increase the coordinates in 3 pixels<br>if (keyCode == RIGHT) {<br>nX = nX + 3;<br>}<br>// Decrease the coordinates in 3 pixels<br>if (keyCode == LEFT) {<br>nX = nX - 3;<br>}<br>// Limit the X coordinates<br>if (nX &lt; 0) {<br>nX = 0;<br>}<br>if (nX &gt; width - 20) { <br>nX = width - 20;<br>}<br>}</p>
+<p>RESULTADO<br>La cantidad de manzanas que golpeen la cabeza de Newton se contarán y se mostrarán en la ventana del programa.</p>
+<p><img src="processing_34.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>COMANDOS<br>text( text, x, y ): escribe un texto (text) en la pantalla en las coordenadas&nbsp;x&nbsp;e&nbsp;y.<br>CÓMO FUNCIONA<br>Se declara la variable,&nbsp;p, tipo&nbsp;int&nbsp;para almacenar los puntos.<br>En la sentencia if para la detección de colisión, una vez que el color de relleno se fija a rojo, la variable&nbsp;p&nbsp;se incrementa en 1.<br>En las últimas líneas de la función&nbsp;draw(), se fija el color de relleno a negro.<br>Se sitúa un texto en las coordenadas (&nbsp;3\*width/4,&nbsp;20). El texto dice “Hits:“ y el valor de la variable&nbsp;p. Ten en cuenta que "hits" es "golpes" en español.<br>10. Uoops, error<br>Te habrás dado cuenta que tu programa ahora mismo está contabilizando puntos de más. Cada vez que la manzana cae sobre la cabeza de Newton, cuando el círculo toca el cuadrado, tu contador sube más o menos 5 puntos. Esto se debe a que el contador continúa contando hasta que la mazana se solapa con Newton por completo.</p>
+<p>Para corregir esto, crearás una variable de tipo&nbsp;boolean&nbsp;(una variable que puede ser verdadero (true) o falso (false)) para decirle al programa si contar puntos o no.</p>
+<p>/*<br>* _03_Catch_The_Apple<br>* <br>* Create the game step-by-step, adding complexity as you move along. <br>* The aim is for Newton to collect points by getting bumped on the head<br>* by as many apples as possible in half a minute.<br>* <br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>int nX = 0; // X coordinate, Newton<br>int nY = 0; // Y coordinate, Newton<br>float aY = 0; // Y coordinate, apples<br>int aX = 15; // X coordinate, apples<br>float aV = 0; // Y speed, apples<br>float aA = 0.05; // Y acceleration, apples<br>int p = 0; // Points<br>boolean pCount = true; // Check whether to count points or not</p>
+<p>void setup() {<br>size(400, 400); <br>nY = height - 25; <br>}</p>
+<p>void draw() {<br>background(200);</p>
+<p>// Apple's movement<br>aV = aV + aA; <br>aY = aY + aV; <br>if (aY &gt; height) {<br>aY = 15; <br>aX = int(random(width - 20)); <br>aV = 0; <br>// When throwing a new apple it will be possible <br>// to start counting points again<br>pCount = true; <br>}</p>
+<p>fill(255);</p>
+<p>// Collision detection<br>if (aY + 10 &gt; nY &amp;&amp; aY - 10 &lt; nY + 20) { <br>if (aX + 10 &gt; nX &amp;&amp; aX - 10 &lt; nX + 20) { <br>fill(255, 0, 0); <br>// If collision increase the points<br>if (pCount) p = p + 1;<br>pCount = false; // Whenever you make it at this point, do not <br>// count any more points<br>} <br>}</p>
+<p>ellipse(aX, aY, 20, 20); <br>rect(nX, nY, 20, 20);</p>
+<p>// Show the points on the screen<br>fill(0); // Text color<br>text("Hits: " + p, 3 * width / 4, 20); // Text alligned to the right<br>}</p>
+<p>void keyPressed() {<br>// Increase the coordinates in 3 pixels<br>if (keyCode == RIGHT) {<br>nX = nX + 3;<br>}<br>// Decrease the coordinates in 3 pixels<br>if (keyCode == LEFT) {<br>nX = nX - 3;<br>}<br>// Limit the X coordinates<br>if (nX &lt; 0) {<br>nX = 0;<br>}<br>if (nX &gt; width - 20) { <br>nX = width - 20;<br>}<br>}</p>
+<p>RESULTADO<br>El contador ha cambiado, ahora solo cuenta una colisión cada vez.</p>
+<p>COMANDOS<br>if( boolean ){ statements }: Comprueba si una variable tipo&nbsp;boolean&nbsp;es&nbsp;true, si lo es ejecuta el código entre llaves&nbsp;statements. Puedes también comprobar si es&nbsp;false&nbsp;escribiendo&nbsp;if( !boolean ).<br>CÓMO FUNCIONA<br>Se declara la variable&nbsp;pCount, tipo&nbsp;boolean. Los puntos solo se cuentan cuando esta variable es&nbsp;true.<br>Justo después de fijar la velocidad a 0, en la sentencia if que comprueba si la variable&nbsp;aY&nbsp;es mayor que&nbsp;height, la variable&nbsp;pCount&nbsp;se pone a&nbsp;true.<br>Cuando se detecta una colisión, se incrementa en 1 la variable&nbsp;p, siempre y cuando&nbsp;pCount&nbsp;valga&nbsp;true.<br>A continuación,&nbsp;pCount&nbsp;se pone a&nbsp;false.<br>Cuando se lanza una nueva manzana, la variable&nbsp;pCount&nbsp;se pone de nuevo a&nbsp;true.<br>11. Y el tiempo empieza<br>El objetivo del juego es recibir tantas manzanas en la cabeza de Newton como sea posible en medio minuto. En este paso, crearás un temporizador de cuenta atrás y lo mostrarás en la ventana del programa.</p>
+<p>/*<br>* _03_Catch_The_Apple<br>* <br>* Create the game step-by-step, adding complexity as you move along. <br>* The aim is for Newton to collect points by getting bumped on the head<br>* by as many apples as possible in half a minute.<br>* <br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>int nX = 0; // X coordinate, Newton<br>int nY = 0; // Y coordinate, Newton<br>float aY = 0; // Y coordinate, apples<br>int aX = 15; // X coordinate, apples<br>float aV = 0; // Y speed, apples<br>float aA = 0.05; // Y acceleration, apples<br>int p = 0; // Points<br>boolean pCount = true; // Check whether to count points or not<br>long t = 0; // Store the time</p>
+<p>void setup() {<br>size(400, 400); <br>nY = height - 25; <br>t = millis(); // Initialize the time counter<br>}</p>
+<p>void draw() {<br>background(200);</p>
+<p>// Apple's movement<br>aV = aV + aA; <br>aY = aY + aV; <br>if (aY &gt; height) {<br>aY = 15; <br>aX = int(random(width - 20)); <br>aV = 0; <br>// When throwing a new apple it will be possible <br>// to start counting points again<br>pCount = true; <br>}</p>
+<p>fill(255);</p>
+<p>// Collision detection<br>if (aY + 10 &gt; nY &amp;&amp; aY - 10 &lt; nY + 20) { <br>if (aX + 10 &gt; nX &amp;&amp; aX - 10 &lt; nX + 20) { <br>fill(255, 0, 0); <br>// If collision increase the points<br>if (pCount) p = p + 1;<br>pCount = false; // Whenever you make it at this point, do not <br>// count any more points<br>} <br>}</p>
+<p>ellipse(aX, aY, 20, 20); <br>rect(nX, nY, 20, 20);</p>
+<p><br>// Count the time<br>float timer = (millis() - t) / 1000; // Count how much time has passed in seconds</p>
+<p>// GAME OVER<br>if (timer &gt;= 30) { // If time reaches 30 seconds, end the game<br>noLoop();<br>}</p>
+<p>// Show the time on the screen<br>fill(0);<br>text("Time: " + (30 - timer), 10, 20);</p>
+<p>// Show the points on the screen<br>fill(0); <br>text("Hits: " + p, 3 * width / 4, 20); <br>}</p>
+<p>void keyPressed() {<br>// Increase the coordinates in 3 pixels<br>if (keyCode == RIGHT) {<br>nX = nX + 3;<br>}<br>// Decrease the coordinates in 3 pixels<br>if (keyCode == LEFT) {<br>nX = nX - 3;<br>}<br>// Limit the X coordinates<br>if (nX &lt; 0) {<br>nX = 0;<br>}<br>if (nX &gt; width - 20) { <br>nX = width - 20;<br>}<br>}</p>
+<p><br>RESULTADO<br>Verás el temporizador en la ventana del programa.</p>
+<p><img src="processing_35.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>COMANDOS<br>long: Este es un tipo de datos para números enteros muy grandes. Es conveniente usarlos cuando manejamos variables temporales, porque estos datos pueden ser muy grandes. ¿Recuerdas que una variables es cómo un contenedor de datos? Bien, se puede decir que&nbsp;long&nbsp;es un contenedor más grande que&nbsp;int. Un&nbsp;int&nbsp;se queda sin espacio antes que un&nbsp;long.<br>noLoop(): Detiene la ejecución continua de la función&nbsp;draw. Para volver a ejecutar el programa tendrás que llamar a&nbsp;loop().<br>millis(): Esta función devuelve el tiempo en milisegundos que ha pasado desde la última vez que se llamó. Si es la primera vez que la llamas, entonces desde que comenzó el programa.<br>CÓMO FUNCIONA<br>Se declara la variable,&nbsp;t, tipo&nbsp;long&nbsp;para almacenar el tiempo.<br>En la función&nbsp;setup(), se asigna a la variable&nbsp;t&nbsp;el valor que devuelve&nbsp;millis(). Como el valor a&nbsp;t&nbsp;se asigna al final de&nbsp;setup(), este valor será próximo a 0, pero aún más próximo a cuando el juego comienza realmente.<br>En la función&nbsp;draw(), una vez dibujados el cuadrado y el círculo, se declara la variable&nbsp;timer&nbsp;tipo&nbsp;float.<br>Se asigna a&nbsp;timer&nbsp;el valor&nbsp;(millis()-t) / 1000. Al dividirlo entre 1000, esta variable tendrá un valor en segundos en lugar de en milisegundos.<br>Si la variable&nbsp;timer&nbsp;es igual o mayor que 30, han pasado 30 segundos y entonces se llama a la función&nbsp;noLoop()&nbsp;la cual detendrá el programa.<br>Se muestra un texto en las coordenadas (10, 20). El texto dice: “Time:“ y el valor&nbsp;30 - t. Es decir, se muestra la cuenta atrás. Ten en cuenta que "time" es "tiempo" en español.<br>12. Añade imágenes al juego<br>En el último paso, añadirás imágenes (tipo PNG) para el fondo las manzanas y Newton. Las puedes crear tú, o buscarlas en Internet.</p>
+<p>&nbsp;Nota: Es importante que las imágenes sean de tipo PNG si quieres que haya transparencia entre las imágenes y el fondo. Ten en cuenta que, al cambiar las formas por imágenes, las proporciones también cambian, por lo que tendrás que hacer encajar esos valores en la parte del programa dedicado a la detección de colisiones.</p>
+<p><br>/*<br>* _03_Catch_The_Apple<br>* <br>* Create the game step-by-step, adding complexity as you move along. <br>* The aim is for Newton to collect points by getting bumped on the head<br>* by as many apples as possible in half a minute.<br>* <br>* (c) 2013-2016 Arduino LLC.<br>*/</p>
+<p>String[] imFiles = {"fondo.png", "manzana.png", "newton1.png", "newton2.png"};<br>PImage[] im = new PImage[4];</p>
+<p>int nX = 0; // X coordinate, Newton<br>int nY = 0; // Y coordinate, Newton<br>float aY = 0; // Y coordinate, apples<br>int aX = 15; // X coordinate, apples<br>float aV = 0; // Y speed, apples<br>float aA = 0.05; // Y acceleration, apples<br>int p = 0; // Points<br>boolean pCount = true; // Check whether to count points or not<br>long t = 0; // Store the time</p>
+<p>void setup() {<br>size(400, 400); <br>nY = height - 135; <br>t = millis();</p>
+<p>// Load the images<br>for(int i = 0; i &lt; 4; i = i + 1) {<br>im[i] = loadImage(imFiles[i]);<br>}<br>}</p>
+<p>void draw() {<br>background(200);<br>image(im[0], 0, 0, width, height); // Background image</p>
+<p>// Apple's movement<br>aV = aV + aA; <br>aY = aY + aV; <br>if (aY &gt; height) {<br>aY = 15; <br>aX = int(random(width - 20)); <br>aV = 0; <br>// When throwing a new apple it will be possible <br>// to start counting points again<br>pCount = true; <br>}</p>
+<p>fill(255);</p>
+<p>// Collision detection<br>if (aY + 50 &gt; nY &amp;&amp; aY &lt; nY + 135) { <br>if (aX + 40 &gt; nX &amp;&amp; aX &lt; nX + 128) { <br>fill(255, 0, 0); <br>// If collision increase the points<br>if (pCount) p = p + 1;<br>pCount = false; // Whenever you make it at this point, do not <br>// count any more points<br>} <br>}</p>
+<p>image(im[1], aX, aY); // Apple<br>if(pCount) {<br>image(im[2], nX, nY); // Newton looking for apples<br>} else {<br>image(im[3], nX, nY); // Newton got an apple<br>}</p>
+<p>// Count the time<br>float timer = (millis() - t) / 1000; // Count how much time has passed in seconds</p>
+<p>// GAME OVER<br>if (timer &gt;= 30) { // If time reaches 30 seconds, end the game<br>noLoop();<br>}</p>
+<p>// Show the time on the screen<br>fill(0);<br>textSize(20); // Increase the font size<br>text("Time: " + (30 - timer), 10, 20);</p>
+<p>// Show the points on the screen<br>fill(0); <br>textSize(20); // Increase the font size<br>text("Hits: " + p, 3 * width / 4, 20); <br>}</p>
+<p>void keyPressed() {<br>// Increase the coordinates in 3 pixels<br>if (keyCode == RIGHT) {<br>nX = nX + 3;<br>}<br>// Decrease the coordinates in 3 pixels<br>if (keyCode == LEFT) {<br>nX = nX - 3;<br>}<br>// Limit the X coordinates<br>if (nX &lt; 0) {<br>nX = 0;<br>}<br>if (nX &gt; width - 20) { <br>nX = width - 20;<br>}<br>}</p>
+<p>RESULTADO<br>Como ves, ahora los círculo son manzanas, el cuadrado es Newton, y en el fondo hay un árbol.</p>
+<p><img src="processing_36.png" alt="" width="500" height="451" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>Para cargar las imágenes utilizamos el mismo método que en los proyectos anteriores, utilizando arrays. En lugar de cambiar el color de las formas cuando una colisión sea detectada, utilizamos el boolean&nbsp;pCount&nbsp;para decidir qué imagen de Newton mostrar.</p>
+<p>CÓMO FUNCIONA<br>Se declara el array&nbsp;imFiles\[\], tipo&nbsp;String, para almacenar los nombres de los archivos de las imagenes que se van a utilizar.<br>Se declara el array&nbsp;im\[\], tipo tipo&nbsp;PImage, para almacenar las imágenes que se van a utilizar.<br>En la función&nbsp;setup(), se utiliza un bucle&nbsp;for&nbsp;para recorrer los nombres de los archivos de las imágenes del array&nbsp;imFiles\[\], y cargar las mismas en el array&nbsp;im\[\].<br>im\[0\]&nbsp;contiene la imagen de fondo y se mostrará ajustada al tamaño de la ventana, esto se hace al empezar la función&nbsp;draw().<br>im\[1\]&nbsp;contiene la imagen de la manzana y se mostrará después de la detección de colisión.<br>im\[2\]&nbsp;y&nbsp;im\[3\]&nbsp;contienen las imágenes de Newton, la primera es Newton normal y la segunda es Newton después de ser golpeado en la cabeza. La variable&nbsp;pCount, tipo&nbsp;boolean&nbsp;se utiliza para decidir qué imagen se mostrará.<br>Si&nbsp;pCount&nbsp;es&nbsp;true, significa que el programa está listo para contar los puntos si una colisión es detectada, y se muestra la imagen de Newton normal,(im\[2\]).<br>Si&nbsp;pCount&nbsp;no es&nbsp;true, significa que se detecta una colisión y que suma un punto, entonces se muestra la imagen de Newton golpeado (im\[3\]).<br>En las sentencias&nbsp;if&nbsp;que comprueban la colisión, los valores se han modificado para encajar los tamaños en las imágenes en vez de las formas utilizadas anteriormente.</p>
+<p><em>¡SIGUE EXPERIMENTANDO!</em><br>Para mejorar este juego puedes hacer varias cosas:</p>
+<p>Imágenes personalizadas: Crea tus propias imágenes.<br>Pantalla de inicio: Crea una pantalla de inicio y que se pase al juego una vez se presione un botón.<br>Pantalla final: Crea una pantalla que muestre el resultado una vez se haya terminado el tiempo.<br>Reinicio: Haz posible reiniciar el juego cuando el tiempo haya terminado. No te olvides de reiniciar todas las variables necesarias.<br>Modifica los movimientos: Haz que la manzana se mueva modificando la aceleración en lugar de la velocidad.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="3_nuestras_nuevas_herramientas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="32_arduino_y_tinkercad_circuits.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_escolares_js.js"></script></body></html>

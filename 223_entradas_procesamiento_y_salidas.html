@@ -1,0 +1,917 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_lightbox.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>2.2.3. Entradas, procesamiento y salidas | RETOS A LA VISTA </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="J Ramón Dorado" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.6 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_lightbox.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-27"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">RETOS A LA VISTA</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">RETOS A LA VISTA</a></li>
+   <li><a href="1_trabajando_en_equipo_para_alcanzar_nuestros_objetivos.html" class="no-ch">1. Trabajando en equipo para alcanzar nuestros objetivos</a></li>
+   <li class="current-page-parent"><a href="2_qe_sabemos_ya.html" class="current-page-parent daddy">2. Qúe sabemos ya</a>
+   <ul>
+      <li><a href="21_mi_gato_hace_uyuyuyuy.html" class="no-ch">2.1. Mi gato hace uyuyuyuy</a></li>
+      <li class="current-page-parent"><a href="22_nuestra_placa_robtica.html" class="current-page-parent daddy">2.2. Nuestra placa robótica</a>
+      <ul>
+         <li><a href="221_exploramos_la_placa.html" class="no-ch">2.2.1. Exploramos la placa</a></li>
+         <li><a href="222_el_cerebro_de_nuestro_robot.html" class="daddy">2.2.2. El cerebro de nuestro robot</a>
+         <ul class="other-section">
+            <li><a href="2221_qu_has_aprendido_sobre_los_microcontroladores.html" class="no-ch">2.2.2.1. Qué has aprendido sobre los microcontroladores</a></li>
+         </ul>
+         </li>
+         <li id="active"><a href="223_entradas_procesamiento_y_salidas.html" class="active no-ch">2.2.3. Entradas, procesamiento y salidas</a></li>
+      </ul>
+      </li>
+      <li><a href="23_el_entorno_de_programacin.html" class="daddy">2.3. El entorno de programación</a>
+      <ul class="other-section">
+         <li><a href="231_hola_mundo.html" class="no-ch">2.3.1. ¡Hola mundo!</a></li>
+      </ul>
+      </li>
+      <li><a href="24_nos_ponemos_manos_a_la_obra.html" class="no-ch">2.4. Nos ponemos manos a la obra</a></li>
+      <li><a href="25_actividades_de_repaso.html" class="no-ch">2.5. Actividades de Repaso</a></li>
+   </ul>
+   </li>
+   <li><a href="3_nuestras_nuevas_herramientas.html" class="daddy">3. Nuestras nuevas herramientas</a>
+   <ul class="other-section">
+      <li><a href="31_processing_aprendiendo_lneas_de_cdigo.html" class="no-ch">3.1 Processing. Aprendiendo líneas de código.</a></li>
+      <li><a href="32_arduino_y_tinkercad_circuits.html" class="no-ch">3.2. Arduino y Tinkercad Circuits</a></li>
+      <li><a href="33__impresin_3d_vacaciones_en_el_espacio.html" class="daddy">3.3.  Impresión 3D: Vacaciones en el espacio</a>
+      <ul class="other-section">
+         <li><a href="331_antes_de_despegar.html" class="no-ch">3.3.1. Antes de despegar</a></li>
+         <li><a href="332_refrescando_la_memoria_espacial.html" class="daddy">3.3.2. Refrescando la memoria espacial</a>
+         <ul class="other-section">
+            <li><a href="3321tus_primeros_bocetos.html" class="no-ch">3.3.2.1.Tus primeros bocetos</a></li>
+            <li><a href="3322_comenzamos_por_los_cimientos.html" class="no-ch">3.3.2.2. Comenzamos por los cimientos</a></li>
+         </ul>
+         </li>
+         <li><a href="333_habitando_el_espacio.html" class="daddy">3.3.3. Habitando el espacio</a>
+         <ul class="other-section">
+            <li><a href="3331_conociendo_las_condiciones_de_vida_en_el_espacio.html" class="no-ch">3.3.3.1. Conociendo las condiciones de vida en el espacio</a></li>
+         </ul>
+         </li>
+         <li><a href="334_nuestros_dibujos_espaciales.html" class="daddy">3.3.4. Nuestros dibujos espaciales</a>
+         <ul class="other-section">
+            <li><a href="41_conociendo_tinkercad.html" class="no-ch">4.1. Conociendo TinkerCad</a></li>
+         </ul>
+         </li>
+         <li><a href="335_edificios_espaciales.html" class="daddy">3.3.5. Edificios espaciales</a>
+         <ul class="other-section">
+            <li><a href="3351_conociendo_los_edificios_en_condiciones_extremas.html" class="no-ch">3.3.5.1. Conociendo los edificios en condiciones extremas</a></li>
+         </ul>
+         </li>
+         <li><a href="336_construyamos_en_el_espacio.html" class="no-ch">3.3.6. Construyamos en el espacio</a></li>
+         <li><a href="337_presentamos_nuestro_trabajo.html" class="no-ch">3.3.7. Presentamos nuestro trabajo</a></li>
+         <li><a href="338_concluyamos.html" class="no-ch">3.3.8. Concluyamos</a></li>
+      </ul>
+      </li>
+      <li><a href="34_dame_una_app.html" class="daddy">3.4. Dame una app</a>
+      <ul class="other-section">
+         <li><a href="341_quieres_empezar.html" class="no-ch">3.4.1. ¿Quieres empezar?</a></li>
+         <li><a href="342_actvate_antes_de_continuar.html" class="daddy">3.4.2. Actívate antes de continuar</a>
+         <ul class="other-section">
+            <li><a href="3421_vuestra_app_favorita.html" class="no-ch">3.4.2.1. Vuestra app favorita</a></li>
+            <li><a href="3422_no_pierdas_de_vista_scratch.html" class="no-ch">3.4.2.2. No pierdas de vista Scratch</a></li>
+            <li><a href="3423_listos_para_programar.html" class="no-ch">3.4.2.3. ¿Listos para programar?</a></li>
+         </ul>
+         </li>
+         <li><a href="343_cuenta_tu_idea.html" class="daddy">3.4.3. Cuenta tu idea</a>
+         <ul class="other-section">
+            <li><a href="3431_hasta_el_diseo_pero_no_ms_all.html" class="no-ch">3.4.3.1. ¡Hasta el diseño pero no más allá!</a></li>
+            <li><a href="3432_veo_veo_y_diseo_diseo.html" class="no-ch">3.4.3.2. ¡Veo, veo!... y ¡diseño, diseño!...</a></li>
+            <li><a href="3433_ingeniera_del_software_un_futuro.html" class="no-ch">3.4.3.3. Ingeniería del software: Un futuro</a></li>
+            <li><a href="3434_diseador_por_fin_nos_conocemos.html" class="no-ch">3.4.3.4. Diseñador, ¡por fin nos conocemos!</a></li>
+         </ul>
+         </li>
+         <li><a href="344_bloques_ha_llegado_vuestra_hora.html" class="daddy">3.4.4. Bloques, ha llegado vuestra hora</a>
+         <ul class="other-section">
+            <li><a href="3441_bienvenido_a_un_nuevo_ide.html" class="no-ch">3.4.4.1. Bienvenido a un nuevo IDE</a></li>
+            <li><a href="3442_cmo_programar_en_app_inventor_sin_desfallecer.html" class="no-ch">3.4.4.2. Cómo programar en App Inventor sin desfallecer</a></li>
+            <li><a href="3443_puedo_probar.html" class="no-ch">3.4.4.3. ¿Puedo probar?</a></li>
+            <li><a href="3444_aprende_a_compartir.html" class="no-ch">3.4.4.4. Aprende a compartir</a></li>
+         </ul>
+         </li>
+         <li><a href="345_ya_puedes_cumplir_tu_compromiso.html" class="daddy">3.4.5. Ya puedes cumplir tu compromiso</a>
+         <ul class="other-section">
+            <li><a href="3451_a_tu_anlisis_le_toca_revisin.html" class="no-ch">3.4.5.1. A tu análisis le toca revisión</a></li>
+            <li><a href="3452_encantado_de_volver_a_verte_diseador.html" class="no-ch">3.4.5.2. Encantado de volver a verte, diseñador</a></li>
+            <li><a href="3453_pngame_otra_racin_de_programacin.html" class="no-ch">3.4.5.3. Póngame otra ración de programación</a></li>
+            <li><a href="3454_lanza_la_app_a_los_cuatro_vientos.html" class="no-ch">3.4.5.4. Lanza la app a los cuatro vientos</a></li>
+         </ul>
+         </li>
+         <li><a href="346_presenta_tu_trabajo.html" class="no-ch">3.4.6. Presenta tu trabajo</a></li>
+         <li><a href="347_cmo_te_ha_ido.html" class="no-ch">3.4.7. ¿Cómo te ha ido?</a></li>
+      </ul>
+      </li>
+      <li><a href="35_actividades_de_repaso.html" class="no-ch">3.5 Actividades de Repaso</a></li>
+   </ul>
+   </li>
+   <li><a href="4_calienta_que_sales_nos_entrenamos.html" class="no-ch">4. Calienta que sales (Nos entrenamos)</a></li>
+   <li><a href="5_a_por_los_retos_o.html" class="no-ch">5. A por los retos, oé</a></li>
+   <li><a href="6_difundimos_nuestro_trabajo.html" class="no-ch">6. Difundimos nuestro trabajo</a></li>
+   <li><a href="7_todo_bien.html" class="no-ch">7. ¿Todo bien?</a></li>
+   <li><a href="gua_didctica.html" class="no-ch">Guía didáctica</a></li>
+   <li><a href="ficha_tcnica.html" class="no-ch">Ficha técnica</a></li>
+   <li><a href="crditos.html" class="no-ch">Créditos</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="2221_qu_has_aprendido_sobre_los_microcontroladores.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="23_el_entorno_de_programacin.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">2.2.3. Entradas, procesamiento y salidas</h1></header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id744">
+<div class="iDevice emphasis0" >
+<div id="ta744_490_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><img src="gif_animado_narrador_juvenil.gif" alt="Rétor dice" style="float: left; margin-right: 10px; margin-left: 10px;" width="250" height="250" title="Rétor dice">Hasta ahora hemos visto los componentes que lleva nuestra placa, qué es un microcontrolador y su importancia en el funcionamiento de la placa.</p>
+<p>Nos queda ver cómo se relaciona el microcontrolador con los demás componentes (entradas y salidas). Esto es fundamental para saber cómo los robots se relacionan con su entorno: cómo reciben esos estímulos externos, los procesan y dan determinadas respuestas. ¡Y es algo muy importante a la hora de programarlos!</p></div></div></section></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_rep_conocer" id="id745">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_conocer.svg)"><h1 class="iDeviceTitle">1. Recuerda: ¿Cómo crees que sienten los robots? </h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta745_609_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Recuerda que en el apartado "<em>2. Activamos nuestros circuitos</em>" realizaste un ejercicio en el que imaginaste que pasaba cuando alguien te da un pellizco.</p>
+<p>Lo que ocurre nos puede ser de utilidad para entender lo que ahora vamos a ver, así que repasa mentalmente qué es lo que hicimos en ese ejercicio.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_rep_lee" id="id746">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_lee.svg)"><h1 class="iDeviceTitle">2. El esquema de funcionamiento de nuestra placa</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta746_491_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-fx exe-tabs">
+<h2>Esquema</h2>
+<p style="text-align: center;"><img src="Entradas-Procesamiento-Salidas.1.png" title="Esquema entradas, salidas" alt="Entradas, dan información al microcontrolador, que la manda a las salidas" width="560" height="136"></p>
+<ul>
+<li><strong>Entradas</strong>: proporcionan información al microcontrolador, son los sensores.</li>
+<li><strong>Microcontrolador</strong>: lee la información de la entrada, la procesa y la envía a la salida.</li>
+<li><strong>Salidas</strong>: dan distintas respuestas en forma de sonido, luz, movimiento y calor. Son los actuadores.</li>
+</ul>
+<h2>Lectura</h2>
+<p>Recuerda que en el apartado anterior hemos visto qué es un <strong>microcontrolador</strong>. Los microcontroladores <strong>funcionan</strong> con un esquema de <strong>entradas, procesamiento, salidas</strong>.</p>
+<ul>
+<li>Las <strong>entradas</strong> son los sensores y proporcionan información al microcontrolador. Ejemplos de entradas son: pulsadores, sensor de luz, temperatura, acelerómetro.</li>
+<li>El <strong>microcontrolador</strong> almacena en su memoria el programa que hemos realizado. Con el programa el microcontrolador lee la información de las entradas, la procesa y envía una actuación a las salidas.</li>
+<li>Las <strong>salidas</strong> dan distintas respuestas en forma de sonido, luz, movimiento. Ejemplos de salidas son<strong>:</strong> leds, zumbador, motores.</li>
+</ul>
+<p><strong>Ejemplo del proceso</strong>: En un sistema formado por un pulsador que acciona un LED, el microcontrolador lee el estado de un pulsador (entrada), si está presionado enciende un LED (salida) si no lo apaga.</p>
+<h2>Video</h2>
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/NkoS2JXaBuM?rel=0&amp;hl=es&amp;cc_lang_pref=es&amp;cc_load_policy=1" allowfullscreen="allowfullscreen" width="560" height="314"></iframe></p>
+</div></div><article class="exe-udlContent-content-visual js-hidden"><header class='exe-udlContent-alt-content-title'><h2>Apoyo visual</h2></header><p>Esquema sobre la información de entradas y salidas:</p>
+<p style="text-align: center;"><img src="EntradaSalidaPicto.png" alt="Entrada Salida Pictograma" title="Entrada Salida Pictograma" width="419" height="200"></p>
+<p>En el ejemplo de un pulsador (entrada) y un LED (salida), serían los siguientes pasos:</p>
+<p style="text-align: center;"><img src="EntradaSalidaPictoEje.png" alt="Ejemplo entrada salida pictograma" title="Ejemplo entrada salida pictograma" width="420" height="200"></p><button class="exe-udlContent-alt-content-hide">Cerrar</button></article></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_debate" id="id747">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_debate.svg)"><h1 class="iDeviceTitle">3. Explica el esquema</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta747_492_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>En pareja,&nbsp;explica a tu compañero o compañera el esquema de la imagen y que luego él te lo explique a ti.<br>Una vez que lo hayáis puesto en común, escribe en tu cuaderno la explicación del esquema con tus propias palabras.</p>
+<p style="text-align: center;"><img src="Entradas-Procesamiento-Salidas.1.png" title="Esquema entradas salidas" alt="Entradas, dan información al microcontrolador, que la manda a las salidas" width="560" height="136"></p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper ListaIdevice em_iDevice em_iDevice_question" id="id748">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">4. Clasifica en entradas, procesamiento y salidas</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section id="ta748_115" class="block instructions iDevice_content">
+<p>Clasifica los componentes de la Micro:bit en Entradas / Procesamiento / Salidas.</p>
+<p>Algún componente puede ser tanto de entrada como de salida.</p>
+</section>
+
+<section class="activity" id="activity-748_116">
+<form name="cloze-form-748_116" action="#" class="activity-form cloze-form">
+<div id="cloze748_116">
+<input type="hidden" name="clozeVar748_116.feedbackId" id="clozeVar748_116.feedbackId" value="ta748_117"/>
+
+<div style="display: block !important;">
+<div style="display: inline-block;">
+<p>Pulsadores     
+<label for="clozeBlank748_116.0" class="sr-av">Rellenar huecos (1):</label>
+<select id="clozeBlank748_116.0">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Procesamiento">Procesamiento</option><option value="Entrada/Salida">Entrada/Salida</option>
+</select>
+<span style="display:none" id="clozeAnswer748_116.0">JXUwMDFkJXUwMDJiJXUwMDFhJXUwMDA2JXUwMDEzJXUwMDA1JXUwMDA1</span>
+    </p>
+<p>Matriz de LEDs     
+<label for="clozeBlank748_116.1" class="sr-av">Rellenar huecos (2):</label>
+<select id="clozeBlank748_116.1">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Procesamiento">Procesamiento</option><option value="Entrada/Salida">Entrada/Salida</option>
+</select>
+<span style="display:none" id="clozeAnswer748_116.1">JXUwMDBiJXUwMDMyJXUwMDBkJXUwMDA1JXUwMDBkJXUwMDA1</span>
+    </p>
+<p>Logo táctil     
+<label for="clozeBlank748_116.2" class="sr-av">Rellenar huecos (3):</label>
+<select id="clozeBlank748_116.2">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Procesamiento">Procesamiento</option><option value="Entrada/Salida">Entrada/Salida</option>
+</select>
+<span style="display:none" id="clozeAnswer748_116.2">JXUwMDFkJXUwMDJiJXUwMDFhJXUwMDA2JXUwMDEzJXUwMDA1JXUwMDA1</span>
+    </p>
+<p>Sensor luz     
+<label for="clozeBlank748_116.3" class="sr-av">Rellenar huecos (4):</label>
+<select id="clozeBlank748_116.3">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Procesamiento">Procesamiento</option><option value="Entrada/Salida">Entrada/Salida</option>
+</select>
+<span style="display:none" id="clozeAnswer748_116.3">JXUwMDFkJXUwMDJiJXUwMDFhJXUwMDA2JXUwMDEzJXUwMDA1JXUwMDA1</span>
+    </p>
+</div>
+<div style="display: inline-block;">
+<p>Antena de radio y BT     
+<label for="clozeBlank748_116.4" class="sr-av">Rellenar huecos (5):</label>
+<select id="clozeBlank748_116.4">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Procesamiento">Procesamiento</option><option value="Entrada/Salida">Entrada/Salida</option>
+</select>
+<span style="display:none" id="clozeAnswer748_116.4">JXUwMDFkJXUwMDJiJXUwMDFhJXUwMDA2JXUwMDEzJXUwMDA1JXUwMDA1JXUwMDRlJXUwMDdjJXUwMDMyJXUwMDBkJXUwMDA1JXUwMDBkJXUwMDA1</span>
+    </p>
+<p>Microprocesador     
+<label for="clozeBlank748_116.5" class="sr-av">Rellenar huecos (6):</label>
+<select id="clozeBlank748_116.5">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Procesamiento">Procesamiento</option><option value="Entrada/Salida">Entrada/Salida</option>
+</select>
+<span style="display:none" id="clozeAnswer748_116.5">JXUwMDA4JXUwMDIyJXUwMDFkJXUwMDBjJXUwMDA2JXUwMDE2JXUwMDEyJXUwMDBjJXUwMDA0JXUwMDBjJXUwMDBiJXUwMDFhJXUwMDFi</span>
+    </p>
+<p>Magnetómetro     
+<label for="clozeBlank748_116.6" class="sr-av">Rellenar huecos (7):</label>
+<select id="clozeBlank748_116.6">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Procesamiento">Procesamiento</option><option value="Entrada/Salida">Entrada/Salida</option>
+</select>
+<span style="display:none" id="clozeAnswer748_116.6">JXUwMDFkJXUwMDJiJXUwMDFhJXUwMDA2JXUwMDEzJXUwMDA1JXUwMDA1</span>
+    </p>
+<p>Acelerómetro     
+<label for="clozeBlank748_116.7" class="sr-av">Rellenar huecos (8):</label>
+<select id="clozeBlank748_116.7">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Procesamiento">Procesamiento</option><option value="Entrada/Salida">Entrada/Salida</option>
+</select>
+<span style="display:none" id="clozeAnswer748_116.7">JXUwMDFkJXUwMDJiJXUwMDFhJXUwMDA2JXUwMDEzJXUwMDA1JXUwMDA1</span>
+    </p>
+</div>
+<div style="display: inline-block;">
+<p>USB     
+<label for="clozeBlank748_116.8" class="sr-av">Rellenar huecos (9):</label>
+<select id="clozeBlank748_116.8">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Procesamiento">Procesamiento</option><option value="Entrada/Salida">Entrada/Salida</option>
+</select>
+<span style="display:none" id="clozeAnswer748_116.8">JXUwMDFkJXUwMDJiJXUwMDFhJXUwMDA2JXUwMDEzJXUwMDA1JXUwMDA1JXUwMDRlJXUwMDdjJXUwMDMyJXUwMDBkJXUwMDA1JXUwMDBkJXUwMDA1</span>
+    </p>
+<p>Micrófono     
+<label for="clozeBlank748_116.9" class="sr-av">Rellenar huecos (10):</label>
+<select id="clozeBlank748_116.9">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Procesamiento">Procesamiento</option><option value="Entrada/Salida">Entrada/Salida</option>
+</select>
+<span style="display:none" id="clozeAnswer748_116.9">JXUwMDFkJXUwMDJiJXUwMDFhJXUwMDA2JXUwMDEzJXUwMDA1JXUwMDA1</span>
+    </p>
+<p>Altavoz     
+<label for="clozeBlank748_116.10" class="sr-av">Rellenar huecos (11):</label>
+<select id="clozeBlank748_116.10">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Procesamiento">Procesamiento</option><option value="Entrada/Salida">Entrada/Salida</option>
+</select>
+<span style="display:none" id="clozeAnswer748_116.10">JXUwMDBiJXUwMDMyJXUwMDBkJXUwMDA1JXUwMDBkJXUwMDA1</span>
+    </p>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p>
+<input class="button" type="submit" name="getScore748_116" value="Comprobar"  id="getScore748_116" />
+
+<input type="button" name="feedback748_116" value="Mostrar retroalimentación" class="feedbackbutton cloze-feedback-toggler" />
+
+<input type="hidden" name="clozeOtras748_116" id="clozeOtras748_116" value=""/>
+
+<input type="hidden" name="clozeFlag748_116.strictMarking" id="clozeFlag748_116.strictMarking" value="false" />
+<input type="hidden" name="clozeFlag748_116.checkCaps" id="clozeFlag748_116.checkCaps" value="false" />
+<input type="hidden" name="clozeFlag748_116.instantMarking" id="clozeFlag748_116.instantMarking" value="false" />
+<span class="js-hidden js-warning">Habilitar JavaScript</span>
+</p>
+</div>
+<div class="score js-feedback" id="clozeScore748_116"></div>
+</div>
+</form>
+</section>
+<section id="ta748_117" class="feedback js-feedback iDevice_content" style="display:none">
+<p>En esta imagen podrás ver con más detalle todos los componentes de la cara frontal de tu Micro:bit clasificados.</p>
+<div class="exe-layout-2-cols exe-layout-2-50-50 exe-clear">
+<div class="exe-col exe-col-1">
+<figure class="exe-figure exe-image position-center license-custom" style="width: 300px;"><img src="MicroBitV2_CaraSuperior.png" alt="" title="Micro:bit V2 cara superior" width="300" height="245" /></figure>
+</div>
+<div class="exe-col exe-col-2">
+<figure class="exe-figure exe-image license-custom" style="width: 400px;"><img src="MicroBitV1_CaraSuperior.png" width="300" height="245" /></figure>
+</div>
+</div>
+<table class="exe-table">
+<tbody>
+<tr>
+<td>1</td>
+<td>Pulsadores (Entrada)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Matriz de LEDes (Salida) y sensor de luz (Entrada)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Pines, GPIO (Conexiones componentes externos)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pin alimentación 3V (Alimentación)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Pin tierra GND 0V (Alimentación)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Logo táctil (Entrada)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>LED testigo de micrófono (LED testigo)</td>
+</tr>
+</tbody>
+</table>
+<p>En esta imagen podrás ver con más detalle todos los componentes de la cara trasera de tu Micro:bit clasificados.</p>
+<div class="exe-layout-2-cols exe-layout-2-50-50 exe-clear">
+<div class="exe-col exe-col-1">
+<figure class="exe-figure exe-image license-custom position-right" style="width: 400px;"><img src="MicroBitV2_CaraInferior.png" title="Micro:bit V2 cara inferior" width="300" height="242" />
+<figcaption class="figcaption"><a href="https://ipsumimage.appspot.com/" target="_blank" class="author" rel="noopener"></a><span class="license"><span class="sep"></span></span></figcaption>
+</figure>
+</div>
+<div class="exe-col exe-col-2">
+<figure class="exe-figure exe-image license-custom" style="width: 400px;"><img src="MicroBitV1_CaraInferior.png" title="Micro:bit V1 cara inferior" width="300" height="241" />
+<figcaption class="figcaption"><a href="https://ipsumimage.appspot.com/" target="_blank" class="author" rel="noopener"></a><span class="license"><span class="sep"></span></span></figcaption>
+</figure>
+</div>
+</div>
+<table class="exe-table">
+<tbody>
+<tr>
+<td>1</td>
+<td>Antena de radio y bluetooth (Conectividad)</td>
+<td>9</td>
+<td>Conexión para baterias (Alimentación)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Microprocesador (Procesador)</td>
+<td>10</td>
+<td>Chip de interfaz de USB (Conectividad)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Magnetómetro (Entrada)</td>
+<td>11</td>
+<td>Altavoz (Salida)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Acelerómetro (Entrada)</td>
+<td>12</td>
+<td>Micrófono (Entrada)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Pines (Conexiones componentes externos)</td>
+<td>13</td>
+<td>LED testigo rojo ON (LED testigo)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Conexión micro USB (Conectividad y Alimentación)</td>
+<td>14</td>
+<td>LED testigo amarillo USB (LED testigo)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>LED rojo (LED testigo)</td>
+<td>15</td>
+<td>Botón de reset y alimentación (Procesador)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Botón de reset (Procesador)</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_ejercicio" id="id749">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_ejercicio.svg)"><h1 class="iDeviceTitle">5. La función de los sensores y actuadores</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta749_495_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Comprueba que sabes cuál es la función de un sensor y de un actuador.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper ListaIdevice em_iDevice em_iDevice_question" id="id750">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Opción A: Recuerda la función</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section id="ta750_115" class="block instructions iDevice_content">
+
+</section>
+
+<section class="activity" id="activity-750_116">
+<form name="cloze-form-750_116" action="#" class="activity-form cloze-form">
+<div id="cloze750_116">
+<p>Un sensor es  
+<label for="clozeBlank750_116.0" class="sr-av">Rellenar huecos (1):</label>
+<select id="clozeBlank750_116.0">
+<option selected="selected"> </option><option value="una salida">una salida</option><option value="un procesador">un procesador</option><option value="una entrada">una entrada</option>
+</select>
+<span style="display:none" id="clozeAnswer750_116.0">JXUwMDJkJXUwMDFiJXUwMDBmJXUwMDQxJXUwMDQ1JXUwMDBiJXUwMDFhJXUwMDA2JXUwMDEzJXUwMDA1JXUwMDA1</span>
+ </p>
+<p>Un actuador es  
+<label for="clozeBlank750_116.1" class="sr-av">Rellenar huecos (2):</label>
+<select id="clozeBlank750_116.1">
+<option selected="selected"> </option><option value="una salida">una salida</option><option value="un procesador">un procesador</option><option value="una entrada">una entrada</option>
+</select>
+<span style="display:none" id="clozeAnswer750_116.1">JXUwMDJkJXUwMDFiJXUwMDBmJXUwMDQxJXUwMDUzJXUwMDEyJXUwMDBkJXUwMDA1JXUwMDBkJXUwMDA1</span>
+   </p>
+<p>El microcontrolador es  
+<label for="clozeBlank750_116.2" class="sr-av">Rellenar huecos (3):</label>
+<select id="clozeBlank750_116.2">
+<option selected="selected"> </option><option value="una salida">una salida</option><option value="un procesador">un procesador</option><option value="una entrada">una entrada</option>
+</select>
+<span style="display:none" id="clozeAnswer750_116.2">JXUwMDJkJXUwMDFiJXUwMDRlJXUwMDUwJXUwMDAyJXUwMDFkJXUwMDBjJXUwMDA2JXUwMDE2JXUwMDEyJXUwMDA1JXUwMDBiJXUwMDFk</span>
+ </p>
+<div class="block iDevice_buttons">
+<p>
+<input class="button" type="submit" name="getScore750_116" value="Comprobar"  id="getScore750_116" />
+
+<input type="hidden" name="clozeOtras750_116" id="clozeOtras750_116" value=""/>
+
+<input type="hidden" name="clozeFlag750_116.strictMarking" id="clozeFlag750_116.strictMarking" value="false" />
+<input type="hidden" name="clozeFlag750_116.checkCaps" id="clozeFlag750_116.checkCaps" value="false" />
+<input type="hidden" name="clozeFlag750_116.instantMarking" id="clozeFlag750_116.instantMarking" value="false" />
+<span class="js-hidden js-warning">Habilitar JavaScript</span>
+</p>
+</div>
+<div class="score js-feedback" id="clozeScore750_116"></div>
+</div>
+</form>
+</section></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id751">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción B: Explicamos la función</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta751_498_2" class="block iDevice_content">
+<div class="exe-text"><p>Explica de forma resumida y con tus propias palabras cuál es la función de un sensor y de un actuador.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_ejercicio" id="id752">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_ejercicio.svg)"><h1 class="iDeviceTitle">6. Las entradas y las salidas</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta752_499_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Comprueba que sabes identificar cuál es la entrada y cuál es la salida.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper ListaIdevice em_iDevice em_iDevice_question" id="id753">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Opción A: Identifica la entrada y la salida</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section id="ta753_115" class="block instructions iDevice_content">
+
+</section>
+
+<section class="activity" id="activity-753_116">
+<form name="cloze-form-753_116" action="#" class="activity-form cloze-form">
+<div id="cloze753_116">
+<p>En un sistema que enciende y apaga las luces automáticamente con la luz del sol.  El sensor de luz es la  
+<label for="clozeBlank753_116.0" class="sr-av">Rellenar huecos (1):</label>
+<select id="clozeBlank753_116.0">
+<option selected="selected"> </option><option value="salida">salida</option><option value="entrada">entrada</option>
+</select>
+<span style="display:none" id="clozeAnswer753_116.0">JXUwMDNkJXUwMDBiJXUwMDFhJXUwMDA2JXUwMDEzJXUwMDA1JXUwMDA1</span>
+  y las luces son la  
+<label for="clozeBlank753_116.1" class="sr-av">Rellenar huecos (2):</label>
+<select id="clozeBlank753_116.1">
+<option selected="selected"> </option><option value="salida">salida</option><option value="entrada">entrada</option>
+</select>
+<span style="display:none" id="clozeAnswer753_116.1">JXUwMDJiJXUwMDEyJXUwMDBkJXUwMDA1JXUwMDBkJXUwMDA1</span>
+ </p>
+<div class="block iDevice_buttons">
+<p>
+<input class="button" type="submit" name="getScore753_116" value="Comprobar"  id="getScore753_116" />
+
+<input type="hidden" name="clozeOtras753_116" id="clozeOtras753_116" value=""/>
+
+<input type="hidden" name="clozeFlag753_116.strictMarking" id="clozeFlag753_116.strictMarking" value="false" />
+<input type="hidden" name="clozeFlag753_116.checkCaps" id="clozeFlag753_116.checkCaps" value="false" />
+<input type="hidden" name="clozeFlag753_116.instantMarking" id="clozeFlag753_116.instantMarking" value="false" />
+<span class="js-hidden js-warning">Habilitar JavaScript</span>
+</p>
+</div>
+<div class="score js-feedback" id="clozeScore753_116"></div>
+</div>
+</form>
+</section></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id754">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción B: En tu vida cotidiana</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta754_501_2" class="block iDevice_content">
+<div class="exe-text"><p>Piensa en varios ejemplos reales de la vida cotidiana donde tengas un sistema con una entrada, procesador, salida e identifica cuál es cada parte.</p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Necesitas un ejemplo" /></div><div class="feedback js-feedback js-hidden"><p>Un ejemplo son las luces que se encienden automáticamente al hacerse de noche. El sensor de luz es la entrada y la luz LED la salida.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_actividad" id="id755">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_actividad.svg)"><h1 class="iDeviceTitle">7. Clasifica los componentes de la placa</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta755_620_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>En los siguientes ejercicios clasifica los componentes de la placa según la función que realizan:</p>
+<ul>
+<li><strong>Entradas</strong>: sensores, proporcionan información</li>
+<li><strong>Salidas</strong>: actuadores realizan una acción</li>
+<li><strong>Procesador</strong>: procesa la información</li>
+<li><strong>Conectividad</strong>: permiten conectarse con otros componentes</li>
+<li><strong>Alimentación</strong>: permiten alimentar la placa</li>
+</ul></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper ListaIdevice em_iDevice em_iDevice_question" id="id756">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">7.1. Clasifica los componentes de la cara frontal</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section id="ta756_115" class="block instructions iDevice_content">
+<p>Clasifica los componentes de la cara frontal según la función que realizan:</p>
+<ul>
+<li><strong>Entradas</strong>: sensores, proporcionan información</li>
+<li><strong>Salidas</strong>: actuadores realizan una acción</li>
+<li><strong>Procesador</strong>: procesa la información</li>
+<li><strong>Conectividad</strong>: permiten conectarse con otros componentes</li>
+<li><strong>Alimentación</strong>: permiten alimentar la placa</li>
+</ul>
+<p><a href="Microbit_V1_V2_TRASERA.jpg" rel="lightbox"><img src="Microbit_V1_V2_TRASERA.jpg" style="display: block; margin-left: auto; margin-right: auto;" title="Componentes cara frontal" alt="Componentes de la cara frontal Micro:bit V2: 25 LEDs, 2 pulsadores, logo táctil, pines de conexión" width="644" height="315" /></a></p>
+</section>
+
+<section class="activity" id="activity-756_116">
+<form name="cloze-form-756_116" action="#" class="activity-form cloze-form">
+<div id="cloze756_116">
+<input type="hidden" name="clozeVar756_116.feedbackId" id="clozeVar756_116.feedbackId" value="ta756_117"/>
+
+<p>Pulsadores                  
+<label for="clozeBlank756_116.0" class="sr-av">Rellenar huecos (1):</label>
+<select id="clozeBlank756_116.0">
+<option selected="selected"> </option><option value="Procesador">Procesador</option><option value="Conectividad">Conectividad</option><option value="Salida">Salida</option><option value="Entrada">Entrada</option>
+</select>
+<span style="display:none" id="clozeAnswer756_116.0">JXUwMDFkJXUwMDJiJXUwMDFhJXUwMDA2JXUwMDEzJXUwMDA1JXUwMDA1</span>
+                 </p>
+<p>Matriz de LEDs                  
+<label for="clozeBlank756_116.1" class="sr-av">Rellenar huecos (2):</label>
+<select id="clozeBlank756_116.1">
+<option selected="selected"> </option><option value="Procesador">Procesador</option><option value="Conectividad">Conectividad</option><option value="Salida">Salida</option><option value="Entrada">Entrada</option>
+</select>
+<span style="display:none" id="clozeAnswer756_116.1">JXUwMDBiJXUwMDMyJXUwMDBkJXUwMDA1JXUwMDBkJXUwMDA1</span>
+                 </p>
+<p>Logo táctil                  
+<label for="clozeBlank756_116.2" class="sr-av">Rellenar huecos (3):</label>
+<select id="clozeBlank756_116.2">
+<option selected="selected"> </option><option value="Procesador">Procesador</option><option value="Conectividad">Conectividad</option><option value="Salida">Salida</option><option value="Entrada">Entrada</option>
+</select>
+<span style="display:none" id="clozeAnswer756_116.2">JXUwMDFkJXUwMDJiJXUwMDFhJXUwMDA2JXUwMDEzJXUwMDA1JXUwMDA1</span>
+                 </p>
+<p>Sensor luz                  
+<label for="clozeBlank756_116.3" class="sr-av">Rellenar huecos (4):</label>
+<select id="clozeBlank756_116.3">
+<option selected="selected"> </option><option value="Procesador">Procesador</option><option value="Conectividad">Conectividad</option><option value="Salida">Salida</option><option value="Entrada">Entrada</option>
+</select>
+<span style="display:none" id="clozeAnswer756_116.3">JXUwMDFkJXUwMDJiJXUwMDFhJXUwMDA2JXUwMDEzJXUwMDA1JXUwMDA1</span>
+                 </p>
+<div class="block iDevice_buttons">
+<p>
+<input class="button" type="submit" name="getScore756_116" value="Comprobar"  id="getScore756_116" />
+
+<input type="button" name="feedback756_116" value="Mostrar retroalimentación" class="feedbackbutton cloze-feedback-toggler" />
+
+<input type="hidden" name="clozeOtras756_116" id="clozeOtras756_116" value="JXUwMDA4JXUwMDIyJXUwMDFkJXUwMDBjJXUwMDA2JXUwMDE2JXUwMDEyJXUwMDA1JXUwMDBiJXUwMDFkJXUwMDBlJXUwMDNmJXUwMDJjJXUwMDAxJXUwMDBiJXUwMDA2JXUwMDE3JXUwMDFkJXUwMDFmJXUwMDFmJXUwMDBkJXUwMDA1JXUwMDA1"/>
+
+<input type="hidden" name="clozeFlag756_116.strictMarking" id="clozeFlag756_116.strictMarking" value="false" />
+<input type="hidden" name="clozeFlag756_116.checkCaps" id="clozeFlag756_116.checkCaps" value="false" />
+<input type="hidden" name="clozeFlag756_116.instantMarking" id="clozeFlag756_116.instantMarking" value="false" />
+<span class="js-hidden js-warning">Habilitar JavaScript</span>
+</p>
+</div>
+<div class="score js-feedback" id="clozeScore756_116"></div>
+</div>
+</form>
+</section>
+<section id="ta756_117" class="feedback js-feedback iDevice_content" style="display:none">
+<p>En esta imagen podrás ver con más detalle todos los componentes de la cara superior de tu Micro:bit clasificados.</p>
+<div class="exe-layout-2-cols exe-layout-2-50-50 exe-clear">
+<div class="exe-col exe-col-1">
+<figure class="exe-figure exe-image position-center license-custom" style="width: 300px;"><img src="MicroBitV2_CaraSuperior.png" alt="" title="Micro:bit V2 cara superior" width="300" height="245" /></figure>
+</div>
+<div class="exe-col exe-col-2">
+<figure class="exe-figure exe-image license-custom" style="width: 400px;"><img src="MicroBitV1_CaraSuperior.png" width="300" height="245" /></figure>
+</div>
+</div>
+<table class="exe-table">
+<tbody>
+<tr>
+<td>1</td>
+<td>Pulsadores (Entrada)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Matriz de LEDes (Salida) y sensor de luz (Entrada)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Pines, GPIO (Conexiones componentes externos)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pin alimentación 3V (Alimentación)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Pin tierra GND 0V (Alimentación)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Logo táctil (Entrada)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>LED testigo de micrófono  (LED testigo)</td>
+</tr>
+</tbody>
+</table>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper ListaIdevice em_iDevice em_iDevice_question" id="id757">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">7.2. Clasifica los componentes de la cara trasera</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section id="ta757_115" class="block instructions iDevice_content">
+<p>Clasifica los componentes de la cara trasera según la función que realizan.</p>
+<ul>
+<li><strong>Entradas</strong>: sensores, proporcionan información</li>
+<li><strong>Salidas</strong>: actuadores realizan una acción</li>
+<li><strong>Procesador</strong>: procesa la información</li>
+<li><strong>Conectividad</strong>: permiten conectarse con otros componentes</li>
+<li><strong>Alimentación</strong>: permiten alimentar la placa</li>
+</ul>
+<p style="text-align: center;"><a href="Microbit_V1_V2_DELANTERAS.jpg" rel="lightbox"><img src="Microbit_V1_V2_DELANTERAS.jpg" title="Componentes cara trasera" alt="Componentes de la cara trasera micro:bit V2: procesador, altavoz, brújula, acelerómetro, conexión USB, antena de radio y bluetooth, conexión de alimentación, micrófono" width="560" height="274" /></a></p>
+</section>
+
+<section class="activity" id="activity-757_116">
+<form name="cloze-form-757_116" action="#" class="activity-form cloze-form">
+<div id="cloze757_116">
+<input type="hidden" name="clozeVar757_116.feedbackId" id="clozeVar757_116.feedbackId" value="ta757_117"/>
+
+<p>Antena de radio y BT 
+<label for="clozeBlank757_116.0" class="sr-av">Rellenar huecos (1):</label>
+<select id="clozeBlank757_116.0">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Conectividad/Alimentación">Conectividad/Alimentación</option><option value="Conectividad">Conectividad</option><option value="Alimentación">Alimentación</option><option value="Procesador">Procesador</option>
+</select>
+<span style="display:none" id="clozeAnswer757_116.0">JXUwMDFiJXUwMDJjJXUwMDAxJXUwMDBiJXUwMDA2JXUwMDE3JXUwMDFkJXUwMDFmJXUwMDFmJXUwMDBkJXUwMDA1JXUwMDA1</span>
+</p>
+<p>Microprocesador 
+<label for="clozeBlank757_116.1" class="sr-av">Rellenar huecos (2):</label>
+<select id="clozeBlank757_116.1">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Conectividad/Alimentación">Conectividad/Alimentación</option><option value="Conectividad">Conectividad</option><option value="Alimentación">Alimentación</option><option value="Procesador">Procesador</option>
+</select>
+<span style="display:none" id="clozeAnswer757_116.1">JXUwMDA4JXUwMDIyJXUwMDFkJXUwMDBjJXUwMDA2JXUwMDE2JXUwMDEyJXUwMDA1JXUwMDBiJXUwMDFk</span>
+</p>
+<p>Magnetómetro 
+<label for="clozeBlank757_116.2" class="sr-av">Rellenar huecos (3):</label>
+<select id="clozeBlank757_116.2">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Conectividad/Alimentación">Conectividad/Alimentación</option><option value="Conectividad">Conectividad</option><option value="Alimentación">Alimentación</option><option value="Procesador">Procesador</option>
+</select>
+<span style="display:none" id="clozeAnswer757_116.2">JXUwMDFkJXUwMDJiJXUwMDFhJXUwMDA2JXUwMDEzJXUwMDA1JXUwMDA1</span>
+</p>
+<p>Acelerómetro 
+<label for="clozeBlank757_116.3" class="sr-av">Rellenar huecos (4):</label>
+<select id="clozeBlank757_116.3">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Conectividad/Alimentación">Conectividad/Alimentación</option><option value="Conectividad">Conectividad</option><option value="Alimentación">Alimentación</option><option value="Procesador">Procesador</option>
+</select>
+<span style="display:none" id="clozeAnswer757_116.3">JXUwMDFkJXUwMDJiJXUwMDFhJXUwMDA2JXUwMDEzJXUwMDA1JXUwMDA1</span>
+</p>
+<p>USB 
+<label for="clozeBlank757_116.4" class="sr-av">Rellenar huecos (5):</label>
+<select id="clozeBlank757_116.4">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Conectividad/Alimentación">Conectividad/Alimentación</option><option value="Conectividad">Conectividad</option><option value="Alimentación">Alimentación</option><option value="Procesador">Procesador</option>
+</select>
+<span style="display:none" id="clozeAnswer757_116.4">JXUwMDFiJXUwMDJjJXUwMDAxJXUwMDBiJXUwMDA2JXUwMDE3JXUwMDFkJXUwMDFmJXUwMDFmJXUwMDBkJXUwMDA1JXUwMDA1JXUwMDRiJXUwMDZlJXUwMDJkJXUwMDA1JXUwMDA0JXUwMDA4JXUwMDBiJXUwMDFhJXUwMDE1JXUwMDAyJXUwMDBhJXUwMDlhJXUwMDlk</span>
+</p>
+<p>Micrófono 
+<label for="clozeBlank757_116.5" class="sr-av">Rellenar huecos (6):</label>
+<select id="clozeBlank757_116.5">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Conectividad/Alimentación">Conectividad/Alimentación</option><option value="Conectividad">Conectividad</option><option value="Alimentación">Alimentación</option><option value="Procesador">Procesador</option>
+</select>
+<span style="display:none" id="clozeAnswer757_116.5">JXUwMDFkJXUwMDJiJXUwMDFhJXUwMDA2JXUwMDEzJXUwMDA1JXUwMDA1</span>
+</p>
+<p>Altavoz 
+<label for="clozeBlank757_116.6" class="sr-av">Rellenar huecos (7):</label>
+<select id="clozeBlank757_116.6">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Conectividad/Alimentación">Conectividad/Alimentación</option><option value="Conectividad">Conectividad</option><option value="Alimentación">Alimentación</option><option value="Procesador">Procesador</option>
+</select>
+<span style="display:none" id="clozeAnswer757_116.6">JXUwMDBiJXUwMDMyJXUwMDBkJXUwMDA1JXUwMDBkJXUwMDA1</span>
+</p>
+<p>Conexión baterías 
+<label for="clozeBlank757_116.7" class="sr-av">Rellenar huecos (8):</label>
+<select id="clozeBlank757_116.7">
+<option selected="selected"> </option><option value="Salida">Salida</option><option value="Entrada">Entrada</option><option value="Conectividad/Alimentación">Conectividad/Alimentación</option><option value="Conectividad">Conectividad</option><option value="Alimentación">Alimentación</option><option value="Procesador">Procesador</option>
+</select>
+<span style="display:none" id="clozeAnswer757_116.7">JXUwMDE5JXUwMDJkJXUwMDA1JXUwMDA0JXUwMDA4JXUwMDBiJXUwMDFhJXUwMDE1JXUwMDAyJXUwMDBhJXUwMDlhJXUwMDlk</span>
+</p>
+<div class="block iDevice_buttons">
+<p>
+<input class="button" type="submit" name="getScore757_116" value="Comprobar"  id="getScore757_116" />
+
+<input type="button" name="feedback757_116" value="Mostrar retroalimentación" class="feedbackbutton cloze-feedback-toggler" />
+
+<input type="hidden" name="clozeOtras757_116" id="clozeOtras757_116" value=""/>
+
+<input type="hidden" name="clozeFlag757_116.strictMarking" id="clozeFlag757_116.strictMarking" value="false" />
+<input type="hidden" name="clozeFlag757_116.checkCaps" id="clozeFlag757_116.checkCaps" value="false" />
+<input type="hidden" name="clozeFlag757_116.instantMarking" id="clozeFlag757_116.instantMarking" value="false" />
+<span class="js-hidden js-warning">Habilitar JavaScript</span>
+</p>
+</div>
+<div class="score js-feedback" id="clozeScore757_116"></div>
+</div>
+</form>
+</section>
+<section id="ta757_117" class="feedback js-feedback iDevice_content" style="display:none">
+<p>En esta imagen podrás ver con más detalle todos los componentes de la cara inferior de tu Micro:bit clasificados.</p>
+<div class="exe-layout-2-cols exe-layout-2-50-50 exe-clear">
+<div class="exe-col exe-col-1">
+<figure class="exe-figure exe-image license-custom position-right" style="width: 400px;"><img src="MicroBitV2_CaraInferior.png" title="Micro:bit V2 cara inferior" width="300" height="242" />
+<figcaption class="figcaption"><a href="https://ipsumimage.appspot.com/" target="_blank" class="author" rel="noopener"></a><span class="license"><span class="sep"></span></span></figcaption>
+</figure>
+</div>
+<div class="exe-col exe-col-2">
+<figure class="exe-figure exe-image license-custom" style="width: 400px;"><img src="MicroBitV1_CaraInferior.png" title="Micro:bit V1 cara inferior" width="300" height="241" />
+<figcaption class="figcaption"><a href="https://ipsumimage.appspot.com/" target="_blank" class="author" rel="noopener"></a><span class="license"><span class="sep"></span></span></figcaption>
+</figure>
+</div>
+</div>
+<table class="exe-table">
+<tbody>
+<tr>
+<td>1</td>
+<td>Antena de radio y bluetooth (Conectividad)</td>
+<td>9</td>
+<td>Conexión para baterias (Alimentación)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Microprocesador (Procesador)</td>
+<td>10</td>
+<td>Chip de interfaz de USB (Conectividad)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Magnetómetro (Entrada)</td>
+<td>11</td>
+<td>Altavoz (Salida)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Acelerómetro (Entrada)</td>
+<td>12</td>
+<td>Micrófono (Entrada)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Pines (Conexiones componentes externos)</td>
+<td>13</td>
+<td>LED testigo rojo ON (LED testigo)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Conexión micro USB (Conectividad y Alimentación)</td>
+<td>14</td>
+<td>LED testigo amarillo USB (LED testigo)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>LED rojo (LED testigo)</td>
+<td>15</td>
+<td>Botón de reset y alimentación (Procesador)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Botón de reset (Procesador)</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id758">
+<div class="iDevice emphasis0" >
+<div id="ta758_502_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header exe-udlContent-character-3"><h2><span class="sr-av">Clavis dice </span>Repasa lo aprendido</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Una buena estrategia para saber si avanzamos es hacernos preguntas de lo que vamos aprendiendo. Aquí te propongo que te pares un momento y respondas a las siguientes preguntas para saber cuánto dominas lo que acabamos de aprender sobre el proceso Entrada→ Procesador→ Salida:</p>
+<ul>
+<li>¿Entiendo el proceso: Entrada → Procesador → Salida?&nbsp;¿Sería capaz de explicarlo?</li>
+<li>¿Conozco la diferencia entre la función de un sensor y de un actuador?</li>
+<li>¿Soy capaz de poner ejemplos de componentes de entrada?</li>
+<li>¿Soy capaz de poner ejemplos de componentes de salida?</li>
+<li>¿Soy capaz de clasificar los componentes de la placa en entradas y salidas?</li>
+<li>Sé clasificar los componentes de la placa en sensores y actuadores.</li>
+<li>Sé identificar cuáles son los componentes que permiten la conectividad de la placa con otros aparatos o dispositivos.</li>
+<li>Sé identificar cuáles son los componentes que permiten alimentar la placa.</li>
+</ul></div></div></section></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="2221_qu_has_aprendido_sobre_los_microcontroladores.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="23_el_entorno_de_programacin.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_escolares_js.js"></script></body></html>
